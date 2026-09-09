@@ -1,0 +1,264 @@
+family_member_id,patient_id,role,relationship,authorisation_level,active_status
+F001,P001,Primary Contact,Neighbour,high,True
+F002,P001,Primary Contact,Child,high,True
+F003,P002,Primary Contact,Spouse,high,True
+F004,P002,Primary Contact,Spouse,high,True
+F005,P002,Primary Contact,Child,high,True
+F006,P003,Primary Contact,Spouse,high,True
+F007,P003,Primary Contact,Friend,high,True
+F008,P003,Primary Contact,Neighbour,high,True
+F009,P004,Primary Contact,Grandchild,high,True
+F010,P005,Primary Contact,Friend,high,True
+F011,P006,Primary Contact,Spouse,high,True
+F012,P006,Secondary Contact,Grandchild,medium,True
+F013,P006,Secondary Contact,Grandchild,medium,True
+F014,P007,Primary Contact,Spouse,high,True
+F015,P007,Unauthorised,Sibling,none,True
+F016,P007,Primary Contact,Child,high,True
+F017,P008,Primary Contact,Grandchild,high,True
+F018,P008,Primary Contact,Neighbour,high,True
+F019,P008,Secondary Contact,Friend,medium,True
+F020,P009,Primary Contact,Spouse,high,True
+F021,P009,Unauthorised,Child,none,True
+F022,P010,Primary Contact,Spouse,high,True
+F023,P010,Unauthorised,Child,none,True
+F024,P010,Unauthorised,Neighbour,none,True
+F025,P011,Primary Contact,Grandchild,high,True
+F026,P011,Unauthorised,Child,none,True
+F027,P012,Primary Contact,Grandchild,high,True
+F028,P012,Primary Contact,Friend,high,True
+F029,P012,Secondary Contact,Neighbour,medium,True
+F030,P013,Primary Contact,Grandchild,high,True
+F031,P013,Primary Contact,Neighbour,high,True
+F032,P014,Primary Contact,Friend,high,True
+F033,P014,Primary Contact,Friend,high,True
+F034,P015,Primary Contact,Friend,high,True
+F035,P016,Primary Contact,Friend,high,True
+F036,P016,Unauthorised,Neighbour,none,True
+F037,P017,Primary Contact,Friend,high,True
+F038,P018,Primary Contact,Neighbour,high,True
+F039,P019,Primary Contact,Grandchild,high,True
+F040,P019,Unauthorised,Grandchild,none,True
+F041,P019,Secondary Contact,Friend,medium,True
+F042,P020,Primary Contact,Neighbour,high,True
+F043,P020,Secondary Contact,Grandchild,medium,True
+F044,P021,Primary Contact,Spouse,high,True
+F045,P021,Secondary Contact,Child,medium,True
+F046,P022,Primary Contact,Spouse,high,True
+F047,P022,Secondary Contact,Friend,medium,True
+F048,P023,Primary Contact,Friend,high,True
+F049,P023,Unauthorised,Sibling,none,True
+F050,P023,Unauthorised,Child,none,True
+F051,P024,Primary Contact,Spouse,high,True
+F052,P024,Secondary Contact,Friend,medium,True
+F053,P025,Primary Contact,Sibling,high,True
+F054,P026,Primary Contact,Sibling,high,True
+F055,P026,Secondary Contact,Grandchild,medium,True
+F056,P027,Primary Contact,Child,high,True
+F057,P027,Secondary Contact,Grandchild,medium,True
+F058,P027,Unauthorised,Spouse,none,True
+F059,P028,Primary Contact,Spouse,high,True
+F060,P029,Primary Contact,Grandchild,high,True
+F061,P029,Secondary Contact,Spouse,medium,True
+F062,P029,Secondary Contact,Neighbour,medium,True
+F063,P030,Primary Contact,Neighbour,high,True
+F064,P030,Unauthorised,Friend,none,True
+F065,P031,Primary Contact,Child,high,True
+F066,P031,Primary Contact,Sibling,high,True
+F067,P032,Primary Contact,Friend,high,True
+F068,P033,Primary Contact,Neighbour,high,True
+F069,P033,Primary Contact,Grandchild,high,True
+F070,P033,Secondary Contact,Sibling,medium,True
+F071,P034,Primary Contact,Grandchild,high,True
+F072,P034,Unauthorised,Sibling,none,True
+F073,P035,Primary Contact,Grandchild,high,True
+F074,P035,Unauthorised,Sibling,none,True
+F075,P036,Primary Contact,Friend,high,True
+F076,P036,Unauthorised,Sibling,none,True
+F077,P037,Primary Contact,Spouse,high,True
+F078,P037,Secondary Contact,Child,medium,True
+F079,P038,Primary Contact,Child,high,True
+F080,P038,Primary Contact,Neighbour,high,True
+F081,P038,Secondary Contact,Grandchild,medium,True
+F082,P039,Primary Contact,Spouse,high,True
+F083,P039,Primary Contact,Neighbour,high,True
+F084,P039,Primary Contact,Friend,high,True
+F085,P040,Primary Contact,Grandchild,high,True
+F086,P040,Unauthorised,Grandchild,none,True
+F087,P041,Primary Contact,Spouse,high,True
+F088,P041,Secondary Contact,Sibling,medium,True
+F089,P041,Primary Contact,Spouse,high,True
+F090,P042,Primary Contact,Sibling,high,True
+F091,P042,Primary Contact,Child,high,True
+F092,P043,Primary Contact,Sibling,high,True
+F093,P043,Unauthorised,Child,none,True
+F094,P043,Primary Contact,Child,high,True
+F095,P044,Primary Contact,Spouse,high,True
+F096,P044,Secondary Contact,Neighbour,medium,True
+F097,P044,Unauthorised,Friend,none,True
+F098,P045,Primary Contact,Child,high,True
+F099,P046,Primary Contact,Friend,high,True
+F100,P046,Secondary Contact,Friend,medium,True
+F101,P046,Secondary Contact,Sibling,medium,True
+F102,P047,Primary Contact,Child,high,True
+F103,P048,Primary Contact,Child,high,True
+F104,P048,Secondary Contact,Child,medium,True
+F105,P049,Primary Contact,Child,high,True
+F106,P049,Secondary Contact,Grandchild,medium,True
+F107,P050,Primary Contact,Spouse,high,True
+F108,P050,Unauthorised,Spouse,none,True
+F109,P050,Primary Contact,Grandchild,high,True
+F110,P051,Primary Contact,Spouse,high,True
+F111,P051,Primary Contact,Child,high,True
+F112,P052,Primary Contact,Grandchild,high,True
+F113,P052,Secondary Contact,Grandchild,medium,True
+F114,P052,Unauthorised,Spouse,none,True
+F115,P053,Primary Contact,Friend,high,True
+F116,P053,Secondary Contact,Sibling,medium,True
+F117,P053,Secondary Contact,Grandchild,medium,True
+F118,P054,Primary Contact,Grandchild,high,True
+F119,P054,Secondary Contact,Grandchild,medium,True
+F120,P055,Primary Contact,Grandchild,high,True
+F121,P056,Primary Contact,Neighbour,high,True
+F122,P056,Primary Contact,Spouse,high,True
+F123,P056,Primary Contact,Sibling,high,True
+F124,P057,Primary Contact,Spouse,high,True
+F125,P057,Primary Contact,Spouse,high,True
+F126,P057,Primary Contact,Grandchild,high,True
+F127,P058,Primary Contact,Spouse,high,True
+F128,P059,Primary Contact,Friend,high,True
+F129,P060,Primary Contact,Grandchild,high,True
+F130,P060,Unauthorised,Friend,none,True
+F131,P061,Primary Contact,Spouse,high,True
+F132,P061,Primary Contact,Sibling,high,True
+F133,P062,Primary Contact,Friend,high,True
+F134,P062,Secondary Contact,Child,medium,True
+F135,P062,Unauthorised,Neighbour,none,True
+F136,P063,Primary Contact,Sibling,high,True
+F137,P064,Primary Contact,Spouse,high,True
+F138,P064,Unauthorised,Friend,none,True
+F139,P064,Unauthorised,Child,none,True
+F140,P065,Primary Contact,Spouse,high,True
+F141,P065,Primary Contact,Sibling,high,True
+F142,P065,Unauthorised,Spouse,none,True
+F143,P066,Primary Contact,Child,high,True
+F144,P067,Primary Contact,Sibling,high,True
+F145,P068,Primary Contact,Sibling,high,True
+F146,P068,Unauthorised,Friend,none,True
+F147,P068,Unauthorised,Child,none,True
+F148,P069,Primary Contact,Sibling,high,True
+F149,P069,Unauthorised,Neighbour,none,True
+F150,P070,Primary Contact,Grandchild,high,True
+F151,P070,Secondary Contact,Grandchild,medium,True
+F152,P071,Primary Contact,Child,high,True
+F153,P071,Secondary Contact,Grandchild,medium,True
+F154,P072,Primary Contact,Friend,high,True
+F155,P073,Primary Contact,Sibling,high,True
+F156,P073,Secondary Contact,Child,medium,True
+F157,P073,Unauthorised,Child,none,True
+F158,P074,Primary Contact,Neighbour,high,True
+F159,P075,Primary Contact,Neighbour,high,True
+F160,P075,Unauthorised,Sibling,none,True
+F161,P075,Primary Contact,Grandchild,high,True
+F162,P076,Primary Contact,Spouse,high,True
+F163,P077,Primary Contact,Neighbour,high,True
+F164,P077,Unauthorised,Friend,none,True
+F165,P078,Primary Contact,Grandchild,high,True
+F166,P078,Primary Contact,Friend,high,True
+F167,P079,Primary Contact,Friend,high,True
+F168,P079,Secondary Contact,Sibling,medium,True
+F169,P079,Primary Contact,Friend,high,True
+F170,P080,Primary Contact,Neighbour,high,True
+F171,P080,Secondary Contact,Child,medium,True
+F172,P081,Primary Contact,Sibling,high,True
+F173,P082,Primary Contact,Friend,high,True
+F174,P082,Unauthorised,Sibling,none,True
+F175,P083,Primary Contact,Child,high,True
+F176,P083,Secondary Contact,Friend,medium,True
+F177,P083,Unauthorised,Child,none,True
+F178,P084,Primary Contact,Sibling,high,True
+F179,P084,Secondary Contact,Child,medium,True
+F180,P085,Primary Contact,Child,high,True
+F181,P085,Unauthorised,Neighbour,none,True
+F182,P086,Primary Contact,Child,high,True
+F183,P086,Secondary Contact,Spouse,medium,True
+F184,P086,Secondary Contact,Grandchild,medium,True
+F185,P087,Primary Contact,Friend,high,True
+F186,P087,Unauthorised,Neighbour,none,True
+F187,P088,Primary Contact,Spouse,high,True
+F188,P088,Primary Contact,Sibling,high,True
+F189,P089,Primary Contact,Friend,high,True
+F190,P089,Primary Contact,Neighbour,high,True
+F191,P089,Secondary Contact,Friend,medium,True
+F192,P090,Primary Contact,Child,high,True
+F193,P091,Primary Contact,Neighbour,high,True
+F194,P091,Unauthorised,Spouse,none,True
+F195,P091,Primary Contact,Sibling,high,True
+F196,P092,Primary Contact,Friend,high,True
+F197,P092,Primary Contact,Child,high,True
+F198,P092,Unauthorised,Spouse,none,True
+F199,P093,Primary Contact,Friend,high,True
+F200,P094,Primary Contact,Neighbour,high,True
+F201,P095,Primary Contact,Friend,high,True
+F202,P096,Primary Contact,Neighbour,high,True
+F203,P096,Secondary Contact,Sibling,medium,True
+F204,P096,Unauthorised,Friend,none,True
+F205,P097,Primary Contact,Spouse,high,True
+F206,P097,Secondary Contact,Friend,medium,True
+F207,P098,Primary Contact,Spouse,high,True
+F208,P098,Primary Contact,Grandchild,high,True
+F209,P098,Secondary Contact,Grandchild,medium,True
+F210,P099,Primary Contact,Sibling,high,True
+F211,P099,Primary Contact,Friend,high,True
+F212,P099,Primary Contact,Sibling,high,True
+F213,P100,Primary Contact,Sibling,high,True
+F214,P100,Secondary Contact,Neighbour,medium,True
+F215,P100,Primary Contact,Sibling,high,True
+F216,P101,Primary Contact,Friend,high,True
+F217,P101,Unauthorised,Spouse,none,True
+F218,P101,Unauthorised,Friend,none,True
+F219,P102,Primary Contact,Sibling,high,True
+F220,P102,Secondary Contact,Grandchild,medium,True
+F221,P102,Secondary Contact,Grandchild,medium,True
+F222,P103,Primary Contact,Sibling,high,True
+F223,P103,Secondary Contact,Spouse,medium,True
+F224,P104,Primary Contact,Friend,high,True
+F225,P104,Primary Contact,Spouse,high,True
+F226,P104,Unauthorised,Friend,none,True
+F227,P105,Primary Contact,Sibling,high,True
+F228,P106,Primary Contact,Friend,high,True
+F229,P106,Secondary Contact,Friend,medium,True
+F230,P106,Unauthorised,Neighbour,none,True
+F231,P107,Primary Contact,Child,high,True
+F232,P107,Primary Contact,Spouse,high,True
+F233,P107,Secondary Contact,Grandchild,medium,True
+F234,P108,Primary Contact,Friend,high,True
+F235,P108,Secondary Contact,Child,medium,True
+F236,P108,Primary Contact,Grandchild,high,True
+F237,P109,Primary Contact,Neighbour,high,True
+F238,P109,Primary Contact,Spouse,high,True
+F239,P110,Primary Contact,Spouse,high,True
+F240,P110,Unauthorised,Child,none,True
+F241,P111,Primary Contact,Sibling,high,True
+F242,P111,Secondary Contact,Grandchild,medium,True
+F243,P112,Primary Contact,Child,high,True
+F244,P112,Secondary Contact,Sibling,medium,True
+F245,P112,Unauthorised,Neighbour,none,True
+F246,P113,Primary Contact,Neighbour,high,True
+F247,P113,Secondary Contact,Neighbour,medium,True
+F248,P113,Secondary Contact,Friend,medium,True
+F249,P114,Primary Contact,Child,high,True
+F250,P114,Primary Contact,Spouse,high,True
+F251,P114,Unauthorised,Neighbour,none,True
+F252,P115,Primary Contact,Neighbour,high,True
+F253,P115,Secondary Contact,Child,medium,True
+F254,P115,Primary Contact,Friend,high,True
+F255,P116,Primary Contact,Neighbour,high,True
+F256,P117,Primary Contact,Spouse,high,True
+F257,P117,Primary Contact,Neighbour,high,True
+F258,P117,Secondary Contact,Sibling,medium,True
+F259,P118,Primary Contact,Child,high,True
+F260,P119,Primary Contact,Sibling,high,True
+F261,P119,Primary Contact,Sibling,high,True
+F262,P120,Primary Contact,Spouse,high,True
+F263,P120,Secondary Contact,Spouse,medium,True

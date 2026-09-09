@@ -1,0 +1,987 @@
+event_id,patient_id,visit_id,event_type,event_time,severity,description,source,data_quality
+E00001,P003,V1001,visit_scheduled,2026-09-05T13:30:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00002,P081,V1002,visit_scheduled,2026-09-11T09:45:00,info,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00003,P081,V1002,visit_cancelled,2026-09-11T09:45:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00004,P081,V1002,care_exception,2026-09-11T09:45:00,low,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00005,P065,V1003,care_exception,2026-09-20T14:15:00,info,Auto-generated synthetic event: care exception,caregiver_app,good
+E00006,P065,V1003,visit_cancelled,2026-09-20T14:15:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00007,P065,V1003,care_exception,2026-09-20T14:15:00,high,Auto-generated synthetic event: care exception,coordinator,good
+E00008,P070,V1004,care_exception,2026-09-20T15:00:00,info,Auto-generated synthetic event: care exception,coordinator,poor
+E00009,P072,V1005,care_exception,2026-09-22T12:45:00,low,Auto-generated synthetic event: care exception,scheduling_system,good
+E00010,P045,V1006,follow_up_required,2026-09-24T12:30:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00011,P045,V1006,visit_scheduled,2026-09-24T12:30:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00012,P082,V1007,visit_delayed,2026-09-21T12:45:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00013,P061,V1008,follow_up_required,2026-09-02T09:45:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00014,P061,V1008,visit_completed,2026-09-02T09:45:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00015,P061,V1008,visit_scheduled,2026-09-02T09:45:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00016,P023,V1009,visit_cancelled,2026-09-21T11:30:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00017,P023,V1009,visit_scheduled,2026-09-21T11:30:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00018,P023,V1009,visit_delayed,2026-09-21T11:30:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00019,P083,V1010,visit_delayed,2026-09-27T14:45:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00020,P097,V1011,visit_scheduled,2026-09-17T15:15:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00021,P058,V1012,visit_cancelled,2026-09-06T17:45:00,low,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00022,P115,V1013,visit_scheduled,2026-09-09T13:30:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00023,P115,V1013,visit_started,2026-09-09T13:30:00,high,Auto-generated synthetic event: visit started,caregiver_app,good
+E00024,P117,V1014,visit_delayed,2026-09-25T12:00:00,high,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00025,P117,V1014,visit_scheduled,2026-09-25T12:00:00,high,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00026,P065,V1015,visit_started,2026-09-25T16:15:00,medium,Auto-generated synthetic event: visit started,coordinator,poor
+E00027,P059,V1016,visit_delayed,2026-09-19T16:15:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00028,P008,V1017,visit_scheduled,2026-09-02T16:45:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00029,P008,V1017,care_exception,2026-09-02T16:45:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00030,P049,V1018,visit_started,2026-09-30T15:00:00,high,Auto-generated synthetic event: visit started,coordinator,good
+E00031,P049,V1018,visit_scheduled,2026-09-30T15:00:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00032,P049,V1018,follow_up_required,2026-09-30T15:00:00,low,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00033,P060,V1019,care_exception,2026-09-03T16:15:00,high,Auto-generated synthetic event: care exception,scheduling_system,good
+E00034,P060,V1019,visit_scheduled,2026-09-03T16:15:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00035,P060,V1019,visit_delayed,2026-09-03T16:15:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00036,P114,V1020,care_exception,2026-09-24T16:45:00,medium,Auto-generated synthetic event: care exception,caregiver_app,good
+E00037,P100,V1021,visit_completed,2026-09-08T11:00:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,poor
+E00038,P100,V1021,visit_scheduled,2026-09-08T11:00:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00039,P053,V1022,visit_cancelled,2026-09-05T16:30:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00040,P053,V1022,follow_up_required,2026-09-05T16:30:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00041,P053,V1022,care_exception,2026-09-05T16:30:00,high,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00042,P020,V1023,follow_up_required,2026-09-09T08:15:00,info,Auto-generated synthetic event: follow up required,coordinator,good
+E00043,P020,V1023,visit_started,2026-09-09T08:15:00,low,Auto-generated synthetic event: visit started,scheduling_system,good
+E00044,P020,V1023,visit_started,2026-09-09T08:15:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00045,P027,V1024,visit_started,2026-09-13T10:45:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00046,P093,V1025,follow_up_required,2026-09-21T09:45:00,info,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00047,P051,V1026,visit_delayed,2026-09-18T11:45:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00048,P051,V1026,visit_completed,2026-09-18T11:45:00,high,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00049,P051,V1026,care_exception,2026-09-18T11:45:00,info,Auto-generated synthetic event: care exception,caregiver_app,good
+E00050,P118,V1027,visit_delayed,2026-09-18T13:30:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00051,P118,V1027,visit_started,2026-09-18T13:30:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00052,P107,V1028,visit_scheduled,2026-09-12T13:45:00,info,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00053,P114,V1029,visit_delayed,2026-09-16T16:30:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00054,P048,V1030,visit_started,2026-09-21T08:00:00,medium,Auto-generated synthetic event: visit started,caregiver_app,good
+E00055,P048,V1030,visit_delayed,2026-09-21T08:00:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00056,P087,V1031,visit_scheduled,2026-09-20T17:45:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00057,P087,V1031,care_exception,2026-09-20T17:45:00,medium,Auto-generated synthetic event: care exception,coordinator,good
+E00058,P087,V1031,visit_started,2026-09-20T17:45:00,medium,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00059,P059,V1032,visit_scheduled,2026-09-26T10:00:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00060,P090,V1033,visit_cancelled,2026-09-08T11:30:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00061,P061,V1034,visit_scheduled,2026-09-03T15:45:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00062,P119,V1035,visit_cancelled,2026-09-02T09:30:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00063,P056,V1036,visit_completed,2026-09-10T10:15:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00064,P049,V1037,visit_completed,2026-09-27T09:30:00,info,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00065,P049,V1037,visit_completed,2026-09-27T09:30:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00066,P047,V1038,visit_cancelled,2026-09-06T17:45:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00067,P012,V1039,visit_scheduled,2026-09-03T08:30:00,info,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00068,P012,V1039,care_exception,2026-09-03T08:30:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00069,P022,V1040,visit_completed,2026-09-20T13:45:00,high,Auto-generated synthetic event: visit completed,coordinator,poor
+E00070,P079,V1041,visit_cancelled,2026-09-09T12:30:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00071,P079,V1041,visit_scheduled,2026-09-09T12:30:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00072,P042,V1042,care_exception,2026-09-15T09:15:00,info,Auto-generated synthetic event: care exception,coordinator,poor
+E00073,P042,V1042,visit_cancelled,2026-09-15T09:15:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00074,P042,V1042,visit_delayed,2026-09-15T09:15:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00075,P047,V1043,visit_started,2026-10-01T11:45:00,info,Auto-generated synthetic event: visit started,coordinator,good
+E00076,P089,V1044,visit_scheduled,2026-09-30T17:15:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00077,P089,V1044,visit_delayed,2026-09-30T17:15:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00078,P065,V1045,visit_cancelled,2026-09-27T14:45:00,info,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00079,P079,V1046,visit_cancelled,2026-09-14T16:00:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00080,P079,V1046,care_exception,2026-09-14T16:00:00,medium,Auto-generated synthetic event: care exception,coordinator,good
+E00081,P079,V1046,visit_completed,2026-09-14T16:00:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00082,P076,V1047,follow_up_required,2026-09-19T14:30:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00083,P076,V1047,care_exception,2026-09-19T14:30:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00084,P076,V1047,visit_scheduled,2026-09-19T14:30:00,info,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00085,P101,V1048,visit_delayed,2026-09-17T10:30:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00086,P101,V1048,visit_delayed,2026-09-17T10:30:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,poor
+E00087,P101,V1048,visit_started,2026-09-17T10:30:00,high,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00088,P022,V1049,visit_started,2026-09-17T15:30:00,high,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00089,P022,V1049,visit_started,2026-09-17T15:30:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00090,P079,V1050,visit_cancelled,2026-09-08T16:15:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00091,P059,V1051,visit_delayed,2026-09-15T17:45:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00092,P059,V1051,visit_started,2026-09-15T17:45:00,high,Auto-generated synthetic event: visit started,coordinator,good
+E00093,P059,V1051,visit_scheduled,2026-09-15T17:45:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00094,P076,V1052,visit_completed,2026-09-09T15:30:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00095,P118,V1053,follow_up_required,2026-09-22T10:30:00,info,Auto-generated synthetic event: follow up required,coordinator,good
+E00096,P118,V1053,visit_completed,2026-09-22T10:30:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00097,P118,V1053,follow_up_required,2026-09-22T10:30:00,info,Auto-generated synthetic event: follow up required,coordinator,good
+E00098,P072,V1054,visit_started,2026-09-30T10:15:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00099,P022,V1055,visit_cancelled,2026-09-21T15:45:00,info,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00100,P022,V1055,visit_cancelled,2026-09-21T15:45:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00101,P022,V1055,visit_started,2026-09-21T15:45:00,low,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00102,P028,V1056,visit_delayed,2026-09-15T17:45:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00103,P089,V1057,visit_scheduled,2026-09-04T11:30:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00104,P091,V1058,follow_up_required,2026-09-28T17:45:00,info,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00105,P111,V1059,visit_cancelled,2026-09-10T17:30:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00106,P052,V1060,visit_scheduled,2026-09-08T10:30:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00107,P102,V1061,visit_delayed,2026-09-24T12:30:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,poor
+E00108,P006,V1062,care_exception,2026-09-13T11:45:00,info,Auto-generated synthetic event: care exception,caregiver_app,good
+E00109,P006,V1062,visit_scheduled,2026-09-13T11:45:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00110,P006,V1062,visit_delayed,2026-09-13T11:45:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00111,P113,V1063,visit_delayed,2026-09-21T15:00:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00112,P028,V1064,visit_completed,2026-09-03T13:30:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00113,P012,V1065,visit_completed,2026-09-03T10:15:00,low,Auto-generated synthetic event: visit completed,coordinator,good
+E00114,P012,V1065,visit_cancelled,2026-09-03T10:15:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00115,P012,V1065,visit_delayed,2026-09-03T10:15:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00116,P079,V1066,follow_up_required,2026-09-26T09:00:00,info,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00117,P079,V1066,follow_up_required,2026-09-26T09:00:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00118,P094,V1067,visit_completed,2026-09-06T15:30:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00119,P094,V1067,visit_cancelled,2026-09-06T15:30:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00120,P067,V1068,visit_scheduled,2026-09-12T14:30:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00121,P002,V1069,visit_delayed,2026-09-17T11:45:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00122,P002,V1069,visit_completed,2026-09-17T11:45:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00123,P034,V1070,follow_up_required,2026-09-30T13:15:00,low,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00124,P027,V1071,visit_completed,2026-09-02T08:45:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00125,P027,V1071,visit_completed,2026-09-02T08:45:00,info,Auto-generated synthetic event: visit completed,coordinator,poor
+E00126,P027,V1071,visit_cancelled,2026-09-02T08:45:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00127,P056,V1072,visit_delayed,2026-09-05T16:30:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00128,P106,V1073,visit_cancelled,2026-09-15T17:00:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00129,P106,V1073,visit_scheduled,2026-09-15T17:00:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00130,P074,V1074,visit_completed,2026-09-09T10:30:00,low,Auto-generated synthetic event: visit completed,coordinator,poor
+E00131,P074,V1074,visit_started,2026-09-09T10:30:00,low,Auto-generated synthetic event: visit started,scheduling_system,good
+E00132,P066,V1075,visit_started,2026-09-03T15:45:00,info,Auto-generated synthetic event: visit started,coordinator,good
+E00133,P066,V1075,visit_completed,2026-09-03T15:45:00,info,Auto-generated synthetic event: visit completed,coordinator,poor
+E00134,P066,V1075,visit_delayed,2026-09-03T15:45:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00135,P041,V1076,visit_cancelled,2026-09-02T08:15:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00136,P041,V1076,visit_scheduled,2026-09-02T08:15:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00137,P041,V1076,visit_scheduled,2026-09-02T08:15:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00138,P100,V1077,follow_up_required,2026-09-27T09:30:00,high,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00139,P100,V1077,visit_completed,2026-09-27T09:30:00,low,Auto-generated synthetic event: visit completed,coordinator,good
+E00140,P100,V1077,visit_completed,2026-09-27T09:30:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00141,P100,V1078,follow_up_required,2026-09-10T13:00:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00142,P100,V1078,visit_started,2026-09-10T13:00:00,info,Auto-generated synthetic event: visit started,coordinator,good
+E00143,P095,V1079,follow_up_required,2026-09-24T16:15:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00144,P095,V1079,visit_scheduled,2026-09-24T16:15:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00145,P095,V1079,visit_cancelled,2026-09-24T16:15:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00146,P067,V1080,visit_started,2026-09-10T09:15:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00147,P067,V1080,visit_scheduled,2026-09-10T09:15:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00148,P067,V1080,visit_completed,2026-09-10T09:15:00,info,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00149,P034,V1081,follow_up_required,2026-09-23T13:45:00,info,Auto-generated synthetic event: follow up required,coordinator,poor
+E00150,P016,V1082,visit_delayed,2026-09-11T14:30:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00151,P016,V1082,visit_scheduled,2026-09-11T14:30:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00152,P092,V1083,visit_delayed,2026-09-12T11:45:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00153,P002,V1084,visit_cancelled,2026-10-01T13:45:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00154,P002,V1084,visit_delayed,2026-10-01T13:45:00,low,Auto-generated synthetic event: visit delayed,coordinator,good
+E00155,P116,V1085,visit_started,2026-09-27T11:15:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00156,P088,V1086,visit_started,2026-09-15T10:00:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00157,P088,V1086,visit_scheduled,2026-09-15T10:00:00,info,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00158,P088,V1086,visit_scheduled,2026-09-15T10:00:00,info,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00159,P008,V1087,visit_scheduled,2026-09-06T13:15:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00160,P008,V1087,visit_cancelled,2026-09-06T13:15:00,low,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00161,P063,V1088,visit_delayed,2026-09-09T14:15:00,low,Auto-generated synthetic event: visit delayed,coordinator,good
+E00162,P063,V1088,visit_delayed,2026-09-09T14:15:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00163,P063,V1088,visit_cancelled,2026-09-09T14:15:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00164,P030,V1089,visit_cancelled,2026-09-30T17:30:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00165,P030,V1089,visit_started,2026-09-30T17:30:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00166,P031,V1090,visit_started,2026-09-04T11:15:00,low,Auto-generated synthetic event: visit started,coordinator,good
+E00167,P031,V1090,follow_up_required,2026-09-04T11:15:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00168,P031,V1090,visit_completed,2026-09-04T11:15:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00169,P005,V1091,visit_cancelled,2026-09-11T13:00:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00170,P005,V1091,visit_started,2026-09-11T13:00:00,low,Auto-generated synthetic event: visit started,coordinator,good
+E00171,P100,V1092,visit_cancelled,2026-09-02T11:15:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00172,P082,V1093,follow_up_required,2026-09-28T16:30:00,medium,Auto-generated synthetic event: follow up required,coordinator,good
+E00173,P023,V1094,visit_scheduled,2026-09-21T13:15:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00174,P023,V1094,visit_delayed,2026-09-21T13:15:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00175,P096,V1095,visit_delayed,2026-09-01T17:45:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00176,P096,V1095,visit_started,2026-09-01T17:45:00,high,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00177,P096,V1095,visit_delayed,2026-09-01T17:45:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00178,P101,V1096,visit_cancelled,2026-09-08T13:30:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00179,P074,V1097,visit_completed,2026-09-24T08:00:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00180,P074,V1097,visit_completed,2026-09-24T08:00:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00181,P115,V1098,visit_scheduled,2026-09-25T11:15:00,high,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00182,P115,V1098,visit_delayed,2026-09-25T11:15:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00183,P093,V1099,follow_up_required,2026-09-11T17:45:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00184,P093,V1099,visit_started,2026-09-11T17:45:00,info,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00185,P093,V1099,visit_started,2026-09-11T17:45:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00186,P081,V1100,follow_up_required,2026-09-18T12:30:00,high,Auto-generated synthetic event: follow up required,coordinator,good
+E00187,P081,V1100,visit_delayed,2026-09-18T12:30:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00188,P070,V1101,visit_scheduled,2026-09-16T11:00:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00189,P045,V1102,follow_up_required,2026-09-06T13:45:00,high,Auto-generated synthetic event: follow up required,scheduling_system,poor
+E00190,P045,V1102,visit_delayed,2026-09-06T13:45:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00191,P116,V1103,visit_completed,2026-09-18T14:15:00,low,Auto-generated synthetic event: visit completed,coordinator,poor
+E00192,P116,V1103,visit_scheduled,2026-09-18T14:15:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00193,P116,V1103,visit_cancelled,2026-09-18T14:15:00,low,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00194,P106,V1104,visit_started,2026-09-23T08:15:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00195,P106,V1104,visit_cancelled,2026-09-23T08:15:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00196,P106,V1104,follow_up_required,2026-09-23T08:15:00,high,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00197,P002,V1105,visit_started,2026-09-05T17:30:00,info,Auto-generated synthetic event: visit started,coordinator,poor
+E00198,P112,V1106,visit_delayed,2026-09-23T17:45:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00199,P112,V1106,visit_scheduled,2026-09-23T17:45:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00200,P114,V1107,follow_up_required,2026-09-29T13:45:00,high,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00201,P114,V1107,care_exception,2026-09-29T13:45:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00202,P112,V1108,visit_completed,2026-09-23T11:00:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00203,P112,V1109,visit_delayed,2026-09-05T12:45:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00204,P032,V1110,care_exception,2026-09-27T08:15:00,low,Auto-generated synthetic event: care exception,coordinator,poor
+E00205,P032,V1110,visit_delayed,2026-09-27T08:15:00,high,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00206,P032,V1110,visit_scheduled,2026-09-27T08:15:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00207,P112,V1111,visit_started,2026-09-15T08:30:00,high,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00208,P083,V1112,visit_scheduled,2026-09-19T16:30:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00209,P083,V1112,visit_completed,2026-09-19T16:30:00,low,Auto-generated synthetic event: visit completed,coordinator,poor
+E00210,P029,V1113,visit_cancelled,2026-09-22T11:30:00,info,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00211,P029,V1113,care_exception,2026-09-22T11:30:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00212,P029,V1113,visit_cancelled,2026-09-22T11:30:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00213,P066,V1114,visit_started,2026-09-20T12:30:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00214,P039,V1115,visit_delayed,2026-10-01T13:30:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00215,P050,V1116,visit_completed,2026-09-05T16:15:00,high,Auto-generated synthetic event: visit completed,caregiver_app,poor
+E00216,P050,V1116,visit_delayed,2026-09-05T16:15:00,medium,Auto-generated synthetic event: visit delayed,coordinator,poor
+E00217,P050,V1116,visit_cancelled,2026-09-05T16:15:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00218,P024,V1117,visit_completed,2026-09-02T17:15:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00219,P024,V1117,visit_cancelled,2026-09-02T17:15:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00220,P101,V1118,care_exception,2026-09-04T15:15:00,high,Auto-generated synthetic event: care exception,coordinator,good
+E00221,P101,V1118,care_exception,2026-09-04T15:15:00,info,Auto-generated synthetic event: care exception,scheduling_system,good
+E00222,P101,V1118,visit_scheduled,2026-09-04T15:15:00,info,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00223,P049,V1119,visit_completed,2026-09-12T12:30:00,info,Auto-generated synthetic event: visit completed,coordinator,poor
+E00224,P024,V1120,visit_cancelled,2026-09-10T14:00:00,info,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00225,P024,V1120,follow_up_required,2026-09-10T14:00:00,high,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00226,P024,V1120,follow_up_required,2026-09-10T14:00:00,high,Auto-generated synthetic event: follow up required,coordinator,poor
+E00227,P079,V1121,visit_started,2026-09-03T15:30:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00228,P087,V1122,visit_completed,2026-09-21T14:45:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00229,P087,V1122,follow_up_required,2026-09-21T14:45:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00230,P068,V1123,care_exception,2026-09-21T11:15:00,medium,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00231,P068,V1123,care_exception,2026-09-21T11:15:00,low,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00232,P028,V1124,visit_scheduled,2026-09-14T10:30:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00233,P014,V1125,follow_up_required,2026-09-01T17:15:00,medium,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00234,P014,V1125,visit_cancelled,2026-09-01T17:15:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00235,P014,V1125,visit_started,2026-09-01T17:15:00,high,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00236,P013,V1126,care_exception,2026-09-27T08:00:00,high,Auto-generated synthetic event: care exception,coordinator,good
+E00237,P067,V1127,visit_delayed,2026-09-17T12:15:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00238,P067,V1127,visit_scheduled,2026-09-17T12:15:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00239,P086,V1128,visit_cancelled,2026-09-12T14:30:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00240,P086,V1128,follow_up_required,2026-09-12T14:30:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00241,P086,V1128,visit_scheduled,2026-09-12T14:30:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00242,P006,V1129,care_exception,2026-09-05T09:00:00,low,Auto-generated synthetic event: care exception,scheduling_system,good
+E00243,P035,V1130,visit_completed,2026-09-10T13:30:00,info,Auto-generated synthetic event: visit completed,coordinator,good
+E00244,P035,V1130,visit_completed,2026-09-10T13:30:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00245,P035,V1130,care_exception,2026-09-10T13:30:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00246,P015,V1131,follow_up_required,2026-09-03T13:30:00,low,Auto-generated synthetic event: follow up required,coordinator,poor
+E00247,P015,V1131,follow_up_required,2026-09-03T13:30:00,medium,Auto-generated synthetic event: follow up required,coordinator,good
+E00248,P015,V1131,visit_delayed,2026-09-03T13:30:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00249,P115,V1132,visit_cancelled,2026-09-23T08:15:00,info,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00250,P115,V1132,visit_cancelled,2026-09-23T08:15:00,info,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00251,P115,V1132,visit_delayed,2026-09-23T08:15:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00252,P067,V1133,visit_completed,2026-09-16T15:00:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00253,P064,V1134,visit_completed,2026-09-23T17:00:00,info,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00254,P110,V1135,care_exception,2026-09-03T15:30:00,info,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00255,P110,V1135,visit_completed,2026-09-03T15:30:00,medium,Auto-generated synthetic event: visit completed,coordinator,poor
+E00256,P066,V1136,visit_started,2026-09-15T13:00:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00257,P029,V1137,visit_cancelled,2026-09-07T15:30:00,info,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00258,P029,V1137,visit_delayed,2026-09-07T15:30:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00259,P029,V1137,visit_started,2026-09-07T15:30:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00260,P120,V1138,visit_scheduled,2026-09-11T13:30:00,info,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00261,P120,V1138,visit_started,2026-09-11T13:30:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00262,P120,V1138,visit_scheduled,2026-09-11T13:30:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00263,P065,V1139,care_exception,2026-09-13T11:45:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00264,P014,V1140,visit_started,2026-10-01T15:00:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00265,P014,V1140,visit_completed,2026-10-01T15:00:00,high,Auto-generated synthetic event: visit completed,caregiver_app,poor
+E00266,P018,V1141,visit_delayed,2026-09-22T17:30:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00267,P087,V1142,visit_scheduled,2026-09-14T17:30:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00268,P087,V1142,care_exception,2026-09-14T17:30:00,high,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00269,P014,V1143,visit_cancelled,2026-09-23T10:30:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00270,P014,V1143,visit_cancelled,2026-09-23T10:30:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00271,P046,V1144,visit_delayed,2026-09-13T10:00:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00272,P046,V1144,visit_completed,2026-09-13T10:00:00,low,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00273,P046,V1144,visit_cancelled,2026-09-13T10:00:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00274,P088,V1145,visit_scheduled,2026-09-15T09:15:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00275,P088,V1145,visit_completed,2026-09-15T09:15:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00276,P076,V1146,visit_started,2026-10-01T16:00:00,medium,Auto-generated synthetic event: visit started,caregiver_app,good
+E00277,P072,V1147,visit_scheduled,2026-09-24T17:15:00,info,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00278,P072,V1147,care_exception,2026-09-24T17:15:00,medium,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00279,P063,V1148,follow_up_required,2026-09-05T10:30:00,medium,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00280,P063,V1148,visit_completed,2026-09-05T10:30:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00281,P063,V1148,visit_cancelled,2026-09-05T10:30:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00282,P045,V1149,visit_cancelled,2026-09-19T16:30:00,info,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00283,P045,V1149,care_exception,2026-09-19T16:30:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00284,P045,V1149,visit_started,2026-09-19T16:30:00,low,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00285,P083,V1150,visit_scheduled,2026-09-29T11:30:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00286,P083,V1150,visit_scheduled,2026-09-29T11:30:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00287,P103,V1151,visit_completed,2026-09-30T17:15:00,low,Auto-generated synthetic event: visit completed,coordinator,good
+E00288,P103,V1151,visit_delayed,2026-09-30T17:15:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00289,P103,V1151,visit_completed,2026-09-30T17:15:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00290,P027,V1152,visit_cancelled,2026-09-15T15:00:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00291,P043,V1153,visit_completed,2026-09-21T11:45:00,info,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00292,P050,V1154,visit_delayed,2026-09-03T09:00:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00293,P050,V1154,visit_cancelled,2026-09-03T09:00:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00294,P039,V1155,visit_delayed,2026-09-04T16:00:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00295,P039,V1155,follow_up_required,2026-09-04T16:00:00,medium,Auto-generated synthetic event: follow up required,coordinator,good
+E00296,P118,V1156,visit_started,2026-09-03T12:45:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00297,P116,V1157,visit_delayed,2026-09-28T13:00:00,high,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00298,P097,V1158,visit_started,2026-09-12T11:45:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00299,P080,V1159,follow_up_required,2026-09-15T16:00:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00300,P080,V1159,visit_scheduled,2026-09-15T16:00:00,info,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00301,P080,V1159,visit_delayed,2026-09-15T16:00:00,medium,Auto-generated synthetic event: visit delayed,coordinator,poor
+E00302,P041,V1160,care_exception,2026-09-29T11:30:00,low,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00303,P041,V1160,visit_scheduled,2026-09-29T11:30:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00304,P083,V1161,follow_up_required,2026-09-26T11:45:00,high,Auto-generated synthetic event: follow up required,coordinator,poor
+E00305,P083,V1161,care_exception,2026-09-26T11:45:00,info,Auto-generated synthetic event: care exception,coordinator,good
+E00306,P083,V1161,visit_cancelled,2026-09-26T11:45:00,high,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00307,P052,V1162,visit_delayed,2026-09-03T12:15:00,high,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00308,P052,V1162,visit_delayed,2026-09-03T12:15:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00309,P060,V1163,visit_cancelled,2026-09-19T11:00:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00310,P060,V1163,care_exception,2026-09-19T11:00:00,info,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00311,P073,V1164,visit_started,2026-09-17T09:45:00,info,Auto-generated synthetic event: visit started,coordinator,good
+E00312,P061,V1165,follow_up_required,2026-09-28T10:45:00,high,Auto-generated synthetic event: follow up required,scheduling_system,poor
+E00313,P061,V1165,visit_scheduled,2026-09-28T10:45:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00314,P115,V1166,care_exception,2026-09-29T08:00:00,high,Auto-generated synthetic event: care exception,coordinator,good
+E00315,P115,V1166,follow_up_required,2026-09-29T08:00:00,info,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00316,P057,V1167,visit_completed,2026-09-03T16:30:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00317,P057,V1167,follow_up_required,2026-09-03T16:30:00,high,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00318,P062,V1168,visit_completed,2026-09-08T09:30:00,low,Auto-generated synthetic event: visit completed,coordinator,good
+E00319,P062,V1168,follow_up_required,2026-09-08T09:30:00,info,Auto-generated synthetic event: follow up required,scheduling_system,poor
+E00320,P119,V1169,care_exception,2026-09-07T17:15:00,info,Auto-generated synthetic event: care exception,scheduling_system,good
+E00321,P102,V1170,visit_started,2026-09-17T14:00:00,medium,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00322,P102,V1170,care_exception,2026-09-17T14:00:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00323,P117,V1171,visit_cancelled,2026-09-27T10:30:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00324,P116,V1172,visit_started,2026-09-22T14:15:00,high,Auto-generated synthetic event: visit started,coordinator,poor
+E00325,P117,V1173,visit_delayed,2026-09-18T08:45:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00326,P117,V1173,visit_delayed,2026-09-18T08:45:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,poor
+E00327,P117,V1173,care_exception,2026-09-18T08:45:00,high,Auto-generated synthetic event: care exception,scheduling_system,good
+E00328,P001,V1174,visit_completed,2026-09-27T17:00:00,low,Auto-generated synthetic event: visit completed,coordinator,good
+E00329,P079,V1175,visit_cancelled,2026-09-17T09:00:00,high,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00330,P079,V1175,visit_scheduled,2026-09-17T09:00:00,info,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00331,P079,V1175,visit_scheduled,2026-09-17T09:00:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00332,P018,V1176,visit_cancelled,2026-09-22T14:15:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00333,P012,V1177,visit_scheduled,2026-09-28T09:15:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00334,P012,V1177,visit_completed,2026-09-28T09:15:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00335,P012,V1177,care_exception,2026-09-28T09:15:00,medium,Auto-generated synthetic event: care exception,caregiver_app,good
+E00336,P077,V1178,follow_up_required,2026-09-05T15:45:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00337,P084,V1179,visit_cancelled,2026-10-01T10:45:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00338,P084,V1179,visit_scheduled,2026-10-01T10:45:00,low,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00339,P084,V1179,care_exception,2026-10-01T10:45:00,medium,Auto-generated synthetic event: care exception,coordinator,good
+E00340,P075,V1180,visit_delayed,2026-09-06T09:30:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00341,P015,V1181,visit_completed,2026-09-12T12:15:00,low,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00342,P015,V1181,visit_completed,2026-09-12T12:15:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00343,P062,V1182,visit_scheduled,2026-09-17T12:30:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00344,P062,V1182,visit_cancelled,2026-09-17T12:30:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00345,P037,V1183,follow_up_required,2026-09-09T09:45:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00346,P037,V1183,visit_scheduled,2026-09-09T09:45:00,info,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00347,P095,V1184,visit_cancelled,2026-09-13T13:00:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00348,P110,V1185,visit_delayed,2026-09-08T11:30:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00349,P074,V1186,visit_delayed,2026-10-01T08:45:00,medium,Auto-generated synthetic event: visit delayed,coordinator,poor
+E00350,P074,V1186,visit_delayed,2026-10-01T08:45:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00351,P074,V1186,follow_up_required,2026-10-01T08:45:00,medium,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00352,P089,V1187,follow_up_required,2026-09-02T16:45:00,high,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00353,P089,V1187,care_exception,2026-09-02T16:45:00,info,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00354,P089,V1187,follow_up_required,2026-09-02T16:45:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00355,P055,V1188,visit_completed,2026-09-01T11:45:00,info,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00356,P055,V1188,visit_delayed,2026-09-01T11:45:00,low,Auto-generated synthetic event: visit delayed,coordinator,good
+E00357,P026,V1189,visit_completed,2026-09-14T13:30:00,info,Auto-generated synthetic event: visit completed,caregiver_app,poor
+E00358,P072,V1190,visit_started,2026-09-26T10:45:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00359,P072,V1190,visit_delayed,2026-09-26T10:45:00,high,Auto-generated synthetic event: visit delayed,coordinator,poor
+E00360,P072,V1190,visit_delayed,2026-09-26T10:45:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00361,P072,V1191,visit_cancelled,2026-09-19T08:45:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00362,P072,V1191,visit_completed,2026-09-19T08:45:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00363,P072,V1191,visit_delayed,2026-09-19T08:45:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,poor
+E00364,P066,V1192,visit_started,2026-09-09T13:00:00,high,Auto-generated synthetic event: visit started,coordinator,good
+E00365,P066,V1192,visit_cancelled,2026-09-09T13:00:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00366,P066,V1192,visit_delayed,2026-09-09T13:00:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00367,P109,V1193,visit_scheduled,2026-09-25T15:00:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00368,P109,V1193,visit_delayed,2026-09-25T15:00:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,poor
+E00369,P022,V1194,visit_scheduled,2026-09-03T10:30:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00370,P022,V1194,visit_scheduled,2026-09-03T10:30:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00371,P051,V1195,follow_up_required,2026-09-28T08:15:00,low,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00372,P051,V1195,visit_started,2026-09-28T08:15:00,low,Auto-generated synthetic event: visit started,caregiver_app,good
+E00373,P004,V1196,visit_started,2026-09-25T09:00:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00374,P004,V1196,visit_started,2026-09-25T09:00:00,high,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00375,P059,V1197,visit_delayed,2026-09-22T13:30:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00376,P002,V1198,visit_cancelled,2026-09-24T17:45:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00377,P001,V1199,visit_started,2026-09-17T10:30:00,low,Auto-generated synthetic event: visit started,caregiver_app,good
+E00378,P001,V1199,visit_completed,2026-09-17T10:30:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00379,P001,V1199,visit_scheduled,2026-09-17T10:30:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00380,P067,V1200,visit_started,2026-09-12T11:45:00,high,Auto-generated synthetic event: visit started,caregiver_app,good
+E00381,P067,V1200,visit_started,2026-09-12T11:45:00,high,Auto-generated synthetic event: visit started,coordinator,good
+E00382,P067,V1200,visit_cancelled,2026-09-12T11:45:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00383,P090,V1201,visit_completed,2026-09-26T17:30:00,high,Auto-generated synthetic event: visit completed,caregiver_app,poor
+E00384,P090,V1201,visit_scheduled,2026-09-26T17:30:00,info,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00385,P002,V1202,visit_cancelled,2026-09-16T11:30:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00386,P025,V1203,visit_cancelled,2026-09-07T13:45:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00387,P027,V1204,visit_completed,2026-09-09T14:00:00,info,Auto-generated synthetic event: visit completed,caregiver_app,poor
+E00388,P015,V1205,visit_scheduled,2026-09-13T12:30:00,info,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00389,P032,V1206,visit_cancelled,2026-09-21T14:30:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00390,P032,V1206,care_exception,2026-09-21T14:30:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00391,P083,V1207,visit_cancelled,2026-09-16T09:30:00,info,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00392,P083,V1207,visit_cancelled,2026-09-16T09:30:00,low,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00393,P083,V1207,visit_started,2026-09-16T09:30:00,low,Auto-generated synthetic event: visit started,coordinator,good
+E00394,P073,V1208,care_exception,2026-09-12T15:15:00,medium,Auto-generated synthetic event: care exception,coordinator,good
+E00395,P073,V1208,follow_up_required,2026-09-12T15:15:00,high,Auto-generated synthetic event: follow up required,coordinator,good
+E00396,P047,V1209,visit_scheduled,2026-09-18T13:30:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00397,P088,V1210,visit_scheduled,2026-09-01T16:45:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00398,P088,V1210,visit_completed,2026-09-01T16:45:00,info,Auto-generated synthetic event: visit completed,coordinator,poor
+E00399,P088,V1210,visit_completed,2026-09-01T16:45:00,info,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00400,P014,V1211,visit_completed,2026-09-25T16:15:00,low,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00401,P014,V1211,follow_up_required,2026-09-25T16:15:00,high,Auto-generated synthetic event: follow up required,coordinator,good
+E00402,P118,V1212,visit_started,2026-09-07T09:00:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00403,P118,V1212,follow_up_required,2026-09-07T09:00:00,low,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00404,P068,V1213,visit_completed,2026-09-21T15:00:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00405,P068,V1213,visit_cancelled,2026-09-21T15:00:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00406,P023,V1214,visit_completed,2026-09-24T09:30:00,info,Auto-generated synthetic event: visit completed,caregiver_app,poor
+E00407,P023,V1214,follow_up_required,2026-09-24T09:30:00,high,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00408,P085,V1215,visit_completed,2026-09-24T16:45:00,info,Auto-generated synthetic event: visit completed,coordinator,poor
+E00409,P085,V1215,visit_scheduled,2026-09-24T16:45:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00410,P099,V1216,visit_delayed,2026-09-18T17:45:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00411,P029,V1217,visit_scheduled,2026-09-30T12:30:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00412,P029,V1217,visit_delayed,2026-09-30T12:30:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00413,P114,V1218,care_exception,2026-09-28T13:00:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00414,P089,V1219,care_exception,2026-09-08T11:30:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00415,P089,V1219,visit_completed,2026-09-08T11:30:00,info,Auto-generated synthetic event: visit completed,coordinator,poor
+E00416,P030,V1220,visit_completed,2026-09-19T09:30:00,low,Auto-generated synthetic event: visit completed,coordinator,good
+E00417,P030,V1220,visit_started,2026-09-19T09:30:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00418,P094,V1221,visit_cancelled,2026-09-21T17:00:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00419,P094,V1221,visit_scheduled,2026-09-21T17:00:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00420,P094,V1221,care_exception,2026-09-21T17:00:00,info,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00421,P090,V1222,follow_up_required,2026-09-15T17:00:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00422,P090,V1222,visit_scheduled,2026-09-15T17:00:00,low,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00423,P042,V1223,visit_scheduled,2026-09-25T10:45:00,info,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00424,P042,V1223,visit_scheduled,2026-09-25T10:45:00,info,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00425,P103,V1224,follow_up_required,2026-09-30T17:00:00,medium,Auto-generated synthetic event: follow up required,coordinator,good
+E00426,P103,V1224,visit_started,2026-09-30T17:00:00,medium,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00427,P105,V1225,visit_started,2026-09-20T10:45:00,low,Auto-generated synthetic event: visit started,scheduling_system,good
+E00428,P105,V1225,visit_completed,2026-09-20T10:45:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00429,P019,V1226,visit_started,2026-09-01T13:00:00,low,Auto-generated synthetic event: visit started,caregiver_app,good
+E00430,P085,V1227,visit_cancelled,2026-09-23T08:45:00,info,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00431,P024,V1228,visit_scheduled,2026-09-22T13:00:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00432,P065,V1229,visit_cancelled,2026-09-17T15:00:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00433,P065,V1229,care_exception,2026-09-17T15:00:00,high,Auto-generated synthetic event: care exception,scheduling_system,good
+E00434,P087,V1230,follow_up_required,2026-09-26T08:30:00,high,Auto-generated synthetic event: follow up required,coordinator,good
+E00435,P087,V1230,visit_delayed,2026-09-26T08:30:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,poor
+E00436,P087,V1230,visit_completed,2026-09-26T08:30:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00437,P026,V1231,follow_up_required,2026-09-28T11:45:00,medium,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00438,P113,V1232,visit_started,2026-09-10T16:15:00,info,Auto-generated synthetic event: visit started,coordinator,good
+E00439,P113,V1232,visit_scheduled,2026-09-10T16:15:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00440,P004,V1233,care_exception,2026-09-24T08:30:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00441,P004,V1233,visit_delayed,2026-09-24T08:30:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00442,P084,V1234,visit_cancelled,2026-09-20T17:30:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00443,P084,V1234,visit_cancelled,2026-09-20T17:30:00,info,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00444,P084,V1234,visit_delayed,2026-09-20T17:30:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00445,P026,V1235,visit_delayed,2026-09-06T14:45:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00446,P026,V1235,visit_started,2026-09-06T14:45:00,low,Auto-generated synthetic event: visit started,coordinator,good
+E00447,P049,V1236,visit_scheduled,2026-09-07T09:15:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00448,P049,V1236,follow_up_required,2026-09-07T09:15:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00449,P049,V1236,visit_completed,2026-09-07T09:15:00,info,Auto-generated synthetic event: visit completed,coordinator,poor
+E00450,P098,V1237,visit_delayed,2026-09-11T14:00:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00451,P060,V1238,visit_cancelled,2026-10-01T08:15:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00452,P060,V1238,visit_completed,2026-10-01T08:15:00,high,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00453,P076,V1239,visit_scheduled,2026-09-21T15:00:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00454,P068,V1240,care_exception,2026-09-29T11:45:00,info,Auto-generated synthetic event: care exception,coordinator,poor
+E00455,P068,V1240,visit_scheduled,2026-09-29T11:45:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00456,P068,V1240,visit_completed,2026-09-29T11:45:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00457,P054,V1241,visit_completed,2026-09-13T16:15:00,info,Auto-generated synthetic event: visit completed,coordinator,good
+E00458,P078,V1242,visit_started,2026-09-10T15:30:00,medium,Auto-generated synthetic event: visit started,caregiver_app,good
+E00459,P078,V1242,visit_started,2026-09-10T15:30:00,low,Auto-generated synthetic event: visit started,scheduling_system,good
+E00460,P019,V1243,visit_completed,2026-09-08T11:45:00,info,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00461,P005,V1244,visit_scheduled,2026-09-02T17:30:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00462,P068,V1245,visit_delayed,2026-09-25T12:30:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00463,P074,V1246,care_exception,2026-09-17T11:15:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00464,P074,V1246,visit_cancelled,2026-09-17T11:15:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00465,P074,V1246,care_exception,2026-09-17T11:15:00,info,Auto-generated synthetic event: care exception,scheduling_system,good
+E00466,P081,V1247,visit_started,2026-09-12T10:45:00,high,Auto-generated synthetic event: visit started,coordinator,good
+E00467,P081,V1247,follow_up_required,2026-09-12T10:45:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00468,P081,V1247,visit_delayed,2026-09-12T10:45:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00469,P042,V1248,visit_delayed,2026-09-04T11:45:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00470,P042,V1248,visit_scheduled,2026-09-04T11:45:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00471,P042,V1248,visit_delayed,2026-09-04T11:45:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00472,P062,V1249,visit_started,2026-09-01T09:30:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00473,P062,V1249,visit_scheduled,2026-09-01T09:30:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00474,P062,V1249,visit_scheduled,2026-09-01T09:30:00,low,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00475,P114,V1250,follow_up_required,2026-09-21T15:30:00,high,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00476,P114,V1250,visit_completed,2026-09-21T15:30:00,info,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00477,P114,V1250,visit_cancelled,2026-09-21T15:30:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00478,P091,V1251,visit_delayed,2026-09-12T09:15:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00479,P100,V1252,visit_completed,2026-09-11T08:30:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00480,P100,V1252,visit_started,2026-09-11T08:30:00,high,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00481,P106,V1253,visit_scheduled,2026-09-30T09:45:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00482,P106,V1253,visit_scheduled,2026-09-30T09:45:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00483,P106,V1253,follow_up_required,2026-09-30T09:45:00,info,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00484,P114,V1254,follow_up_required,2026-09-22T10:15:00,info,Auto-generated synthetic event: follow up required,scheduling_system,poor
+E00485,P114,V1254,care_exception,2026-09-22T10:15:00,medium,Auto-generated synthetic event: care exception,coordinator,poor
+E00486,P021,V1255,visit_cancelled,2026-09-04T16:30:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00487,P021,V1255,visit_completed,2026-09-04T16:30:00,low,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00488,P007,V1256,follow_up_required,2026-09-04T08:00:00,medium,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00489,P007,V1256,follow_up_required,2026-09-04T08:00:00,medium,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00490,P092,V1257,visit_cancelled,2026-09-01T15:00:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00491,P061,V1258,visit_delayed,2026-09-22T16:00:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00492,P061,V1258,visit_cancelled,2026-09-22T16:00:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00493,P061,V1258,visit_completed,2026-09-22T16:00:00,high,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00494,P061,V1259,visit_completed,2026-10-01T11:15:00,info,Auto-generated synthetic event: visit completed,caregiver_app,poor
+E00495,P069,V1260,follow_up_required,2026-09-12T15:45:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00496,P069,V1260,visit_cancelled,2026-09-12T15:45:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00497,P069,V1260,visit_scheduled,2026-09-12T15:45:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00498,P070,V1261,visit_delayed,2026-09-13T17:45:00,high,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00499,P070,V1261,care_exception,2026-09-13T17:45:00,low,Auto-generated synthetic event: care exception,scheduling_system,good
+E00500,P077,V1262,visit_scheduled,2026-09-08T10:00:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00501,P085,V1263,visit_delayed,2026-09-22T17:45:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00502,P085,V1263,visit_scheduled,2026-09-22T17:45:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00503,P085,V1263,care_exception,2026-09-22T17:45:00,medium,Auto-generated synthetic event: care exception,coordinator,good
+E00504,P118,V1264,visit_started,2026-09-15T16:30:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00505,P118,V1264,visit_cancelled,2026-09-15T16:30:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00506,P118,V1264,visit_started,2026-09-15T16:30:00,low,Auto-generated synthetic event: visit started,caregiver_app,good
+E00507,P046,V1265,visit_completed,2026-09-03T17:00:00,info,Auto-generated synthetic event: visit completed,coordinator,poor
+E00508,P046,V1265,visit_delayed,2026-09-03T17:00:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00509,P046,V1265,visit_cancelled,2026-09-03T17:00:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00510,P025,V1266,visit_delayed,2026-09-28T12:00:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00511,P025,V1266,visit_started,2026-09-28T12:00:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00512,P025,V1266,visit_started,2026-09-28T12:00:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00513,P104,V1267,visit_cancelled,2026-09-13T13:45:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00514,P104,V1267,follow_up_required,2026-09-13T13:45:00,info,Auto-generated synthetic event: follow up required,coordinator,good
+E00515,P031,V1268,follow_up_required,2026-09-28T15:45:00,info,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00516,P031,V1268,visit_cancelled,2026-09-28T15:45:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00517,P094,V1269,follow_up_required,2026-09-17T12:45:00,info,Auto-generated synthetic event: follow up required,coordinator,poor
+E00518,P094,V1269,care_exception,2026-09-17T12:45:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00519,P094,V1269,visit_started,2026-09-17T12:45:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00520,P075,V1270,follow_up_required,2026-09-28T12:45:00,medium,Auto-generated synthetic event: follow up required,scheduling_system,poor
+E00521,P119,V1271,care_exception,2026-09-20T08:30:00,info,Auto-generated synthetic event: care exception,coordinator,good
+E00522,P119,V1271,visit_completed,2026-09-20T08:30:00,high,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00523,P109,V1272,visit_cancelled,2026-09-24T12:30:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00524,P109,V1272,visit_cancelled,2026-09-24T12:30:00,low,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00525,P101,V1273,visit_cancelled,2026-09-09T12:15:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00526,P031,V1274,care_exception,2026-09-08T15:15:00,low,Auto-generated synthetic event: care exception,coordinator,good
+E00527,P031,V1274,follow_up_required,2026-09-08T15:15:00,medium,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00528,P097,V1275,visit_scheduled,2026-09-15T10:15:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00529,P006,V1276,visit_completed,2026-09-08T14:45:00,low,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00530,P006,V1276,visit_scheduled,2026-09-08T14:45:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00531,P006,V1276,visit_delayed,2026-09-08T14:45:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00532,P096,V1277,follow_up_required,2026-09-30T16:30:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00533,P045,V1278,visit_started,2026-09-24T17:15:00,info,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00534,P045,V1278,visit_completed,2026-09-24T17:15:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00535,P045,V1278,care_exception,2026-09-24T17:15:00,low,Auto-generated synthetic event: care exception,coordinator,good
+E00536,P012,V1279,visit_delayed,2026-09-24T12:30:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00537,P059,V1280,visit_scheduled,2026-09-20T10:45:00,info,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00538,P059,V1280,visit_completed,2026-09-20T10:45:00,high,Auto-generated synthetic event: visit completed,coordinator,poor
+E00539,P059,V1280,care_exception,2026-09-20T10:45:00,high,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00540,P119,V1281,visit_started,2026-09-25T14:30:00,low,Auto-generated synthetic event: visit started,coordinator,good
+E00541,P119,V1281,visit_started,2026-09-25T14:30:00,info,Auto-generated synthetic event: visit started,coordinator,good
+E00542,P119,V1281,care_exception,2026-09-25T14:30:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00543,P010,V1282,visit_started,2026-09-20T14:15:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00544,P010,V1282,visit_delayed,2026-09-20T14:15:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00545,P001,V1283,visit_cancelled,2026-09-24T12:45:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00546,P001,V1283,visit_completed,2026-09-24T12:45:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00547,P001,V1283,visit_scheduled,2026-09-24T12:45:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00548,P043,V1284,visit_cancelled,2026-09-23T15:45:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00549,P043,V1284,visit_delayed,2026-09-23T15:45:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00550,P043,V1284,visit_delayed,2026-09-23T15:45:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00551,P006,V1285,visit_delayed,2026-09-10T14:00:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00552,P063,V1286,care_exception,2026-09-22T11:30:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00553,P059,V1287,visit_cancelled,2026-09-03T16:30:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00554,P017,V1288,visit_cancelled,2026-09-28T16:15:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00555,P017,V1288,follow_up_required,2026-09-28T16:15:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00556,P017,V1288,visit_delayed,2026-09-28T16:15:00,high,Auto-generated synthetic event: visit delayed,coordinator,poor
+E00557,P103,V1289,visit_started,2026-09-06T08:30:00,high,Auto-generated synthetic event: visit started,caregiver_app,good
+E00558,P103,V1289,care_exception,2026-09-06T08:30:00,info,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00559,P103,V1289,visit_completed,2026-09-06T08:30:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00560,P054,V1290,care_exception,2026-09-14T13:45:00,info,Auto-generated synthetic event: care exception,caregiver_app,good
+E00561,P054,V1290,care_exception,2026-09-14T13:45:00,low,Auto-generated synthetic event: care exception,coordinator,good
+E00562,P119,V1291,visit_started,2026-09-23T13:15:00,medium,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00563,P119,V1291,care_exception,2026-09-23T13:15:00,info,Auto-generated synthetic event: care exception,coordinator,good
+E00564,P024,V1292,visit_completed,2026-09-23T17:30:00,info,Auto-generated synthetic event: visit completed,coordinator,good
+E00565,P070,V1293,follow_up_required,2026-09-16T17:00:00,info,Auto-generated synthetic event: follow up required,coordinator,good
+E00566,P083,V1294,visit_started,2026-09-08T15:15:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00567,P066,V1295,visit_completed,2026-09-10T11:45:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00568,P066,V1295,care_exception,2026-09-10T11:45:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00569,P026,V1296,care_exception,2026-09-03T11:45:00,info,Auto-generated synthetic event: care exception,coordinator,good
+E00570,P046,V1297,visit_completed,2026-09-29T11:00:00,info,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00571,P102,V1298,visit_started,2026-09-07T13:15:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00572,P102,V1298,visit_cancelled,2026-09-07T13:15:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00573,P102,V1298,care_exception,2026-09-07T13:15:00,medium,Auto-generated synthetic event: care exception,caregiver_app,good
+E00574,P002,V1299,follow_up_required,2026-09-21T17:15:00,low,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00575,P002,V1299,visit_completed,2026-09-21T17:15:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00576,P099,V1300,visit_completed,2026-09-14T11:15:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00577,P099,V1300,visit_scheduled,2026-09-14T11:15:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00578,P099,V1300,visit_delayed,2026-09-14T11:15:00,low,Auto-generated synthetic event: visit delayed,coordinator,poor
+E00579,P012,V1301,visit_started,2026-09-02T14:45:00,high,Auto-generated synthetic event: visit started,caregiver_app,good
+E00580,P091,V1302,care_exception,2026-09-16T12:15:00,high,Auto-generated synthetic event: care exception,coordinator,good
+E00581,P091,V1302,follow_up_required,2026-09-16T12:15:00,high,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00582,P095,V1303,visit_started,2026-09-01T09:45:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00583,P095,V1303,visit_cancelled,2026-09-01T09:45:00,low,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00584,P095,V1303,visit_cancelled,2026-09-01T09:45:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00585,P084,V1304,visit_completed,2026-09-17T13:00:00,high,Auto-generated synthetic event: visit completed,caregiver_app,poor
+E00586,P084,V1304,visit_delayed,2026-09-17T13:00:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00587,P107,V1305,visit_started,2026-09-24T17:15:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00588,P107,V1305,visit_delayed,2026-09-24T17:15:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00589,P107,V1305,visit_cancelled,2026-09-24T17:15:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00590,P115,V1306,visit_scheduled,2026-09-16T16:30:00,medium,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00591,P115,V1306,care_exception,2026-09-16T16:30:00,info,Auto-generated synthetic event: care exception,caregiver_app,good
+E00592,P115,V1306,follow_up_required,2026-09-16T16:30:00,medium,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00593,P061,V1307,visit_scheduled,2026-09-10T09:00:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00594,P061,V1307,visit_started,2026-09-10T09:00:00,high,Auto-generated synthetic event: visit started,coordinator,good
+E00595,P061,V1307,visit_delayed,2026-09-10T09:00:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00596,P042,V1308,visit_started,2026-09-14T15:00:00,low,Auto-generated synthetic event: visit started,scheduling_system,good
+E00597,P042,V1308,follow_up_required,2026-09-14T15:00:00,info,Auto-generated synthetic event: follow up required,coordinator,good
+E00598,P046,V1309,visit_completed,2026-09-19T16:45:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00599,P046,V1309,visit_delayed,2026-09-19T16:45:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00600,P046,V1309,care_exception,2026-09-19T16:45:00,low,Auto-generated synthetic event: care exception,scheduling_system,good
+E00601,P017,V1310,visit_scheduled,2026-09-15T10:15:00,high,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00602,P017,V1310,visit_started,2026-09-15T10:15:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00603,P017,V1310,visit_scheduled,2026-09-15T10:15:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00604,P004,V1311,follow_up_required,2026-09-09T13:15:00,low,Auto-generated synthetic event: follow up required,scheduling_system,poor
+E00605,P004,V1311,visit_started,2026-09-09T13:15:00,medium,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00606,P004,V1311,visit_cancelled,2026-09-09T13:15:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00607,P074,V1312,visit_started,2026-09-30T15:15:00,info,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00608,P074,V1312,visit_completed,2026-09-30T15:15:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00609,P046,V1313,visit_completed,2026-09-05T17:45:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00610,P078,V1314,visit_cancelled,2026-09-11T08:15:00,low,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00611,P078,V1314,visit_completed,2026-09-11T08:15:00,high,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00612,P078,V1314,visit_completed,2026-09-11T08:15:00,low,Auto-generated synthetic event: visit completed,coordinator,good
+E00613,P057,V1315,follow_up_required,2026-09-17T08:30:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00614,P057,V1315,visit_completed,2026-09-17T08:30:00,info,Auto-generated synthetic event: visit completed,coordinator,good
+E00615,P068,V1316,visit_started,2026-09-14T15:30:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00616,P068,V1316,visit_started,2026-09-14T15:30:00,high,Auto-generated synthetic event: visit started,coordinator,good
+E00617,P063,V1317,visit_started,2026-09-03T17:45:00,high,Auto-generated synthetic event: visit started,coordinator,poor
+E00618,P023,V1318,care_exception,2026-09-27T12:30:00,low,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00619,P023,V1318,visit_delayed,2026-09-27T12:30:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00620,P023,V1318,follow_up_required,2026-09-27T12:30:00,low,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00621,P061,V1319,visit_cancelled,2026-09-30T11:00:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00622,P061,V1319,care_exception,2026-09-30T11:00:00,low,Auto-generated synthetic event: care exception,coordinator,poor
+E00623,P061,V1319,visit_cancelled,2026-09-30T11:00:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00624,P035,V1320,visit_completed,2026-09-27T09:30:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00625,P035,V1320,visit_scheduled,2026-09-27T09:30:00,high,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00626,P088,V1321,visit_started,2026-09-14T13:00:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00627,P088,V1321,visit_started,2026-09-14T13:00:00,low,Auto-generated synthetic event: visit started,caregiver_app,good
+E00628,P020,V1322,visit_completed,2026-09-10T12:30:00,high,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00629,P098,V1323,care_exception,2026-09-08T11:00:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00630,P101,V1324,visit_scheduled,2026-09-06T12:00:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00631,P101,V1324,visit_cancelled,2026-09-06T12:00:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00632,P002,V1325,care_exception,2026-09-03T08:45:00,low,Auto-generated synthetic event: care exception,scheduling_system,good
+E00633,P002,V1325,visit_cancelled,2026-09-03T08:45:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00634,P002,V1325,visit_cancelled,2026-09-03T08:45:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00635,P065,V1326,visit_delayed,2026-09-04T09:15:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,poor
+E00636,P093,V1327,visit_delayed,2026-09-24T17:15:00,high,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00637,P015,V1328,visit_scheduled,2026-09-30T11:45:00,info,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00638,P015,V1328,visit_started,2026-09-30T11:45:00,info,Auto-generated synthetic event: visit started,coordinator,poor
+E00639,P095,V1329,visit_scheduled,2026-09-11T09:45:00,info,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00640,P095,V1329,visit_cancelled,2026-09-11T09:45:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00641,P014,V1330,visit_cancelled,2026-09-22T15:15:00,low,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00642,P014,V1330,visit_started,2026-09-22T15:15:00,medium,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00643,P014,V1330,visit_cancelled,2026-09-22T15:15:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00644,P026,V1331,visit_cancelled,2026-09-15T16:00:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00645,P026,V1331,visit_scheduled,2026-09-15T16:00:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00646,P086,V1332,visit_cancelled,2026-09-28T14:00:00,info,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00647,P086,V1332,visit_delayed,2026-09-28T14:00:00,medium,Auto-generated synthetic event: visit delayed,coordinator,poor
+E00648,P087,V1333,visit_started,2026-10-01T14:45:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00649,P063,V1334,follow_up_required,2026-09-06T14:30:00,low,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00650,P057,V1335,follow_up_required,2026-09-09T16:30:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00651,P057,V1335,visit_scheduled,2026-09-09T16:30:00,low,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00652,P071,V1336,care_exception,2026-09-02T08:15:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00653,P071,V1336,visit_cancelled,2026-09-02T08:15:00,info,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00654,P076,V1337,follow_up_required,2026-09-18T17:45:00,high,Auto-generated synthetic event: follow up required,coordinator,poor
+E00655,P076,V1337,visit_delayed,2026-09-18T17:45:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00656,P032,V1338,visit_scheduled,2026-09-05T13:30:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00657,P032,V1338,care_exception,2026-09-05T13:30:00,low,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00658,P032,V1338,visit_completed,2026-09-05T13:30:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00659,P054,V1339,visit_completed,2026-09-08T12:00:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00660,P054,V1339,follow_up_required,2026-09-08T12:00:00,medium,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00661,P054,V1339,care_exception,2026-09-08T12:00:00,high,Auto-generated synthetic event: care exception,scheduling_system,good
+E00662,P044,V1340,visit_delayed,2026-09-01T15:00:00,low,Auto-generated synthetic event: visit delayed,coordinator,good
+E00663,P044,V1340,visit_started,2026-09-01T15:00:00,high,Auto-generated synthetic event: visit started,caregiver_app,good
+E00664,P074,V1341,visit_cancelled,2026-09-20T12:30:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00665,P106,V1342,visit_delayed,2026-09-26T11:00:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00666,P106,V1342,visit_scheduled,2026-09-26T11:00:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00667,P024,V1343,visit_scheduled,2026-09-17T12:45:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00668,P024,V1343,visit_cancelled,2026-09-17T12:45:00,info,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00669,P020,V1344,care_exception,2026-09-16T11:45:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00670,P020,V1344,visit_completed,2026-09-16T11:45:00,info,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00671,P020,V1344,visit_scheduled,2026-09-16T11:45:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00672,P020,V1345,visit_scheduled,2026-09-22T12:45:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00673,P085,V1346,care_exception,2026-09-01T11:30:00,info,Auto-generated synthetic event: care exception,caregiver_app,good
+E00674,P085,V1346,follow_up_required,2026-09-01T11:30:00,medium,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00675,P114,V1347,follow_up_required,2026-09-06T08:45:00,medium,Auto-generated synthetic event: follow up required,coordinator,good
+E00676,P114,V1347,visit_cancelled,2026-09-06T08:45:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00677,P099,V1348,visit_completed,2026-09-13T10:15:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00678,P099,V1348,visit_scheduled,2026-09-13T10:15:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00679,P099,V1348,care_exception,2026-09-13T10:15:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00680,P063,V1349,visit_scheduled,2026-09-11T13:45:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00681,P063,V1349,care_exception,2026-09-11T13:45:00,high,Auto-generated synthetic event: care exception,scheduling_system,good
+E00682,P083,V1350,visit_delayed,2026-09-12T09:30:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00683,P083,V1350,visit_completed,2026-09-12T09:30:00,info,Auto-generated synthetic event: visit completed,coordinator,poor
+E00684,P117,V1351,visit_scheduled,2026-09-02T08:15:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00685,P111,V1352,visit_delayed,2026-09-30T12:30:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00686,P095,V1353,care_exception,2026-09-27T15:45:00,medium,Auto-generated synthetic event: care exception,caregiver_app,good
+E00687,P092,V1354,visit_started,2026-09-15T08:00:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00688,P092,V1354,care_exception,2026-09-15T08:00:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00689,P092,V1354,visit_completed,2026-09-15T08:00:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00690,P024,V1355,visit_cancelled,2026-09-27T10:45:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00691,P007,V1356,visit_delayed,2026-09-29T14:15:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00692,P027,V1357,care_exception,2026-09-20T14:30:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00693,P027,V1357,visit_completed,2026-09-20T14:30:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00694,P102,V1358,follow_up_required,2026-10-01T12:30:00,high,Auto-generated synthetic event: follow up required,coordinator,good
+E00695,P102,V1358,visit_scheduled,2026-10-01T12:30:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00696,P088,V1359,visit_completed,2026-09-01T12:30:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00697,P088,V1359,visit_started,2026-09-01T12:30:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00698,P088,V1359,visit_scheduled,2026-09-01T12:30:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00699,P103,V1360,visit_delayed,2026-09-23T14:45:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00700,P103,V1360,visit_completed,2026-09-23T14:45:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00701,P120,V1361,visit_cancelled,2026-09-23T08:00:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00702,P120,V1361,visit_delayed,2026-09-23T08:00:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00703,P119,V1362,visit_started,2026-09-29T15:15:00,high,Auto-generated synthetic event: visit started,caregiver_app,good
+E00704,P007,V1363,care_exception,2026-09-10T12:30:00,info,Auto-generated synthetic event: care exception,scheduling_system,good
+E00705,P007,V1363,visit_delayed,2026-09-10T12:30:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00706,P072,V1364,visit_completed,2026-09-05T08:15:00,high,Auto-generated synthetic event: visit completed,coordinator,poor
+E00707,P075,V1365,visit_completed,2026-09-15T15:00:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00708,P075,V1365,care_exception,2026-09-15T15:00:00,medium,Auto-generated synthetic event: care exception,coordinator,good
+E00709,P075,V1365,visit_completed,2026-09-15T15:00:00,high,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00710,P119,V1366,follow_up_required,2026-09-19T08:15:00,info,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00711,P058,V1367,visit_cancelled,2026-09-27T13:15:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00712,P058,V1367,visit_started,2026-09-27T13:15:00,low,Auto-generated synthetic event: visit started,caregiver_app,good
+E00713,P023,V1368,follow_up_required,2026-10-01T17:15:00,low,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00714,P023,V1368,follow_up_required,2026-10-01T17:15:00,info,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00715,P023,V1368,follow_up_required,2026-10-01T17:15:00,low,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00716,P118,V1369,visit_started,2026-10-01T14:00:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00717,P118,V1369,visit_started,2026-10-01T14:00:00,low,Auto-generated synthetic event: visit started,caregiver_app,good
+E00718,P055,V1370,visit_started,2026-09-29T17:15:00,low,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00719,P011,V1371,care_exception,2026-09-12T17:15:00,low,Auto-generated synthetic event: care exception,scheduling_system,good
+E00720,P118,V1372,visit_completed,2026-09-15T14:00:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00721,P023,V1373,visit_cancelled,2026-09-17T09:45:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00722,P023,V1373,visit_completed,2026-09-17T09:45:00,high,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00723,P028,V1374,visit_completed,2026-09-06T14:00:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00724,P078,V1375,follow_up_required,2026-09-03T17:30:00,medium,Auto-generated synthetic event: follow up required,caregiver_app,poor
+E00725,P078,V1375,visit_cancelled,2026-09-03T17:30:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00726,P084,V1376,visit_completed,2026-09-16T12:30:00,info,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00727,P084,V1376,follow_up_required,2026-09-16T12:30:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00728,P075,V1377,visit_cancelled,2026-09-14T16:15:00,info,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00729,P075,V1377,visit_scheduled,2026-09-14T16:15:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00730,P038,V1378,visit_scheduled,2026-09-07T12:45:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00731,P115,V1379,visit_delayed,2026-09-16T14:45:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00732,P117,V1380,visit_started,2026-09-14T15:00:00,medium,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00733,P117,V1380,care_exception,2026-09-14T15:00:00,high,Auto-generated synthetic event: care exception,scheduling_system,good
+E00734,P080,V1381,visit_started,2026-09-11T17:45:00,low,Auto-generated synthetic event: visit started,caregiver_app,good
+E00735,P080,V1381,visit_completed,2026-09-11T17:45:00,info,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00736,P003,V1382,follow_up_required,2026-09-10T09:45:00,high,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00737,P003,V1382,visit_delayed,2026-09-10T09:45:00,low,Auto-generated synthetic event: visit delayed,coordinator,poor
+E00738,P003,V1382,care_exception,2026-09-10T09:45:00,high,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00739,P063,V1383,care_exception,2026-09-29T12:30:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00740,P063,V1383,visit_delayed,2026-09-29T12:30:00,high,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00741,P063,V1383,visit_cancelled,2026-09-29T12:30:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00742,P108,V1384,care_exception,2026-09-11T13:00:00,medium,Auto-generated synthetic event: care exception,coordinator,good
+E00743,P108,V1384,visit_scheduled,2026-09-11T13:00:00,low,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00744,P065,V1385,visit_scheduled,2026-09-04T09:00:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00745,P065,V1385,care_exception,2026-09-04T09:00:00,medium,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00746,P065,V1385,visit_completed,2026-09-04T09:00:00,info,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00747,P065,V1386,visit_scheduled,2026-09-24T09:15:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00748,P118,V1387,visit_cancelled,2026-09-03T12:30:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00749,P008,V1388,care_exception,2026-09-29T15:30:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00750,P008,V1388,visit_started,2026-09-29T15:30:00,medium,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00751,P071,V1389,visit_completed,2026-09-25T08:15:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00752,P052,V1390,visit_scheduled,2026-09-24T13:30:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00753,P052,V1390,visit_cancelled,2026-09-24T13:30:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00754,P052,V1390,visit_scheduled,2026-09-24T13:30:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00755,P067,V1391,visit_completed,2026-09-07T12:00:00,high,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00756,P067,V1391,visit_completed,2026-09-07T12:00:00,low,Auto-generated synthetic event: visit completed,coordinator,poor
+E00757,P067,V1391,visit_scheduled,2026-09-07T12:00:00,info,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00758,P034,V1392,visit_started,2026-09-25T10:00:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00759,P073,V1393,care_exception,2026-09-17T13:00:00,medium,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00760,P073,V1393,visit_scheduled,2026-09-17T13:00:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00761,P075,V1394,care_exception,2026-09-29T16:15:00,info,Auto-generated synthetic event: care exception,caregiver_app,good
+E00762,P075,V1394,follow_up_required,2026-09-29T16:15:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00763,P075,V1394,visit_delayed,2026-09-29T16:15:00,low,Auto-generated synthetic event: visit delayed,coordinator,good
+E00764,P052,V1395,visit_cancelled,2026-09-27T13:45:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00765,P052,V1395,visit_delayed,2026-09-27T13:45:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00766,P017,V1396,visit_completed,2026-09-18T16:45:00,low,Auto-generated synthetic event: visit completed,coordinator,good
+E00767,P017,V1396,visit_delayed,2026-09-18T16:45:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00768,P017,V1396,visit_scheduled,2026-09-18T16:45:00,high,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00769,P015,V1397,visit_delayed,2026-09-23T15:15:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00770,P015,V1397,visit_scheduled,2026-09-23T15:15:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00771,P120,V1398,visit_delayed,2026-09-12T17:30:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00772,P120,V1398,care_exception,2026-09-12T17:30:00,high,Auto-generated synthetic event: care exception,coordinator,poor
+E00773,P120,V1398,care_exception,2026-09-12T17:30:00,medium,Auto-generated synthetic event: care exception,coordinator,poor
+E00774,P044,V1399,visit_cancelled,2026-09-29T12:15:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00775,P044,V1399,visit_delayed,2026-09-29T12:15:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00776,P030,V1400,follow_up_required,2026-09-13T15:15:00,high,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00777,P030,V1400,care_exception,2026-09-13T15:15:00,high,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00778,P025,V1401,care_exception,2026-09-11T16:00:00,info,Auto-generated synthetic event: care exception,coordinator,poor
+E00779,P027,V1402,visit_delayed,2026-09-18T17:00:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00780,P027,V1402,visit_delayed,2026-09-18T17:00:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00781,P027,V1402,care_exception,2026-09-18T17:00:00,high,Auto-generated synthetic event: care exception,scheduling_system,good
+E00782,P041,V1403,visit_cancelled,2026-09-27T17:45:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00783,P041,V1403,visit_cancelled,2026-09-27T17:45:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00784,P041,V1403,follow_up_required,2026-09-27T17:45:00,medium,Auto-generated synthetic event: follow up required,coordinator,poor
+E00785,P042,V1404,visit_completed,2026-09-09T09:00:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00786,P064,V1405,visit_completed,2026-09-01T08:30:00,low,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00787,P071,V1406,visit_delayed,2026-09-25T16:45:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,poor
+E00788,P071,V1406,visit_cancelled,2026-09-25T16:45:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00789,P071,V1406,visit_completed,2026-09-25T16:45:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00790,P022,V1407,visit_scheduled,2026-09-22T09:15:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00791,P022,V1407,visit_started,2026-09-22T09:15:00,high,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00792,P022,V1407,visit_delayed,2026-09-22T09:15:00,high,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00793,P062,V1408,visit_delayed,2026-09-08T16:45:00,info,Auto-generated synthetic event: visit delayed,coordinator,good
+E00794,P062,V1408,follow_up_required,2026-09-08T16:45:00,high,Auto-generated synthetic event: follow up required,coordinator,good
+E00795,P016,V1409,visit_scheduled,2026-09-20T12:45:00,high,Auto-generated synthetic event: visit scheduled,coordinator,poor
+E00796,P016,V1409,visit_completed,2026-09-20T12:45:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00797,P016,V1409,visit_cancelled,2026-09-20T12:45:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00798,P035,V1410,visit_cancelled,2026-09-05T16:30:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00799,P035,V1410,visit_cancelled,2026-09-05T16:30:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00800,P035,V1410,care_exception,2026-09-05T16:30:00,info,Auto-generated synthetic event: care exception,caregiver_app,good
+E00801,P115,V1411,visit_cancelled,2026-09-22T13:30:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00802,P115,V1411,follow_up_required,2026-09-22T13:30:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00803,P115,V1411,care_exception,2026-09-22T13:30:00,low,Auto-generated synthetic event: care exception,scheduling_system,poor
+E00804,P106,V1412,visit_started,2026-09-23T15:45:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00805,P106,V1412,visit_scheduled,2026-09-23T15:45:00,info,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00806,P106,V1412,visit_completed,2026-09-23T15:45:00,low,Auto-generated synthetic event: visit completed,coordinator,poor
+E00807,P105,V1413,follow_up_required,2026-09-12T14:15:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00808,P112,V1414,follow_up_required,2026-09-21T12:15:00,medium,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00809,P112,V1414,visit_completed,2026-09-21T12:15:00,info,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00810,P112,V1414,care_exception,2026-09-21T12:15:00,high,Auto-generated synthetic event: care exception,coordinator,poor
+E00811,P073,V1415,visit_scheduled,2026-09-19T16:45:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00812,P073,V1415,care_exception,2026-09-19T16:45:00,info,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00813,P007,V1416,visit_scheduled,2026-09-08T16:30:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00814,P007,V1416,visit_delayed,2026-09-08T16:30:00,high,Auto-generated synthetic event: visit delayed,coordinator,poor
+E00815,P007,V1416,visit_completed,2026-09-08T16:30:00,info,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00816,P051,V1417,follow_up_required,2026-10-01T13:45:00,info,Auto-generated synthetic event: follow up required,coordinator,good
+E00817,P051,V1417,visit_delayed,2026-10-01T13:45:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00818,P062,V1418,visit_started,2026-09-11T09:00:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00819,P080,V1419,visit_delayed,2026-09-26T08:30:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00820,P056,V1420,follow_up_required,2026-09-25T09:45:00,medium,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00821,P080,V1421,visit_completed,2026-09-04T08:00:00,medium,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00822,P080,V1421,visit_cancelled,2026-09-04T08:00:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00823,P080,V1421,follow_up_required,2026-09-04T08:00:00,low,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00824,P046,V1422,visit_started,2026-09-04T13:00:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00825,P100,V1423,visit_delayed,2026-09-16T17:45:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00826,P100,V1423,visit_cancelled,2026-09-16T17:45:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00827,P100,V1423,care_exception,2026-09-16T17:45:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00828,P055,V1424,visit_cancelled,2026-09-05T15:30:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00829,P059,V1425,visit_started,2026-09-07T11:15:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00830,P059,V1425,visit_started,2026-09-07T11:15:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00831,P059,V1425,care_exception,2026-09-07T11:15:00,high,Auto-generated synthetic event: care exception,caregiver_app,good
+E00832,P052,V1426,care_exception,2026-09-30T08:45:00,low,Auto-generated synthetic event: care exception,coordinator,good
+E00833,P052,V1426,visit_cancelled,2026-09-30T08:45:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00834,P029,V1427,visit_started,2026-09-27T08:30:00,high,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00835,P029,V1427,visit_completed,2026-09-27T08:30:00,info,Auto-generated synthetic event: visit completed,coordinator,good
+E00836,P029,V1427,visit_delayed,2026-09-27T08:30:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00837,P015,V1428,visit_started,2026-09-24T10:30:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00838,P019,V1429,visit_started,2026-09-30T11:30:00,medium,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00839,P019,V1429,visit_cancelled,2026-09-30T11:30:00,info,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00840,P019,V1429,care_exception,2026-09-30T11:30:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00841,P032,V1430,care_exception,2026-09-26T11:15:00,info,Auto-generated synthetic event: care exception,caregiver_app,good
+E00842,P032,V1430,visit_delayed,2026-09-26T11:15:00,info,Auto-generated synthetic event: visit delayed,scheduling_system,poor
+E00843,P097,V1431,visit_cancelled,2026-09-21T12:15:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00844,P097,V1431,follow_up_required,2026-09-21T12:15:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00845,P097,V1431,visit_started,2026-09-21T12:15:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00846,P084,V1432,visit_delayed,2026-09-12T15:45:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00847,P084,V1432,care_exception,2026-09-12T15:45:00,info,Auto-generated synthetic event: care exception,scheduling_system,good
+E00848,P084,V1432,visit_scheduled,2026-09-12T15:45:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00849,P097,V1433,follow_up_required,2026-09-07T11:15:00,high,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00850,P097,V1433,visit_cancelled,2026-09-07T11:15:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00851,P097,V1433,visit_started,2026-09-07T11:15:00,high,Auto-generated synthetic event: visit started,scheduling_system,poor
+E00852,P023,V1434,visit_completed,2026-09-10T15:30:00,low,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00853,P005,V1435,visit_completed,2026-09-08T12:00:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00854,P005,V1435,visit_cancelled,2026-09-08T12:00:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00855,P005,V1435,follow_up_required,2026-09-08T12:00:00,low,Auto-generated synthetic event: follow up required,coordinator,poor
+E00856,P117,V1436,visit_delayed,2026-09-07T13:15:00,high,Auto-generated synthetic event: visit delayed,coordinator,good
+E00857,P027,V1437,care_exception,2026-09-01T12:30:00,low,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00858,P027,V1437,visit_cancelled,2026-09-01T12:30:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00859,P072,V1438,follow_up_required,2026-09-08T16:45:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00860,P072,V1438,care_exception,2026-09-08T16:45:00,medium,Auto-generated synthetic event: care exception,coordinator,poor
+E00861,P089,V1439,follow_up_required,2026-09-12T10:15:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00862,P069,V1440,visit_cancelled,2026-09-10T13:00:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00863,P069,V1440,visit_started,2026-09-10T13:00:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00864,P026,V1441,follow_up_required,2026-09-07T15:00:00,high,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00865,P015,V1442,follow_up_required,2026-09-30T14:30:00,info,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00866,P074,V1443,visit_cancelled,2026-09-18T14:45:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00867,P074,V1443,visit_scheduled,2026-09-18T14:45:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00868,P060,V1444,care_exception,2026-09-19T11:45:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00869,P060,V1444,visit_started,2026-09-19T11:45:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00870,P060,V1444,visit_cancelled,2026-09-19T11:45:00,low,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00871,P056,V1445,visit_cancelled,2026-09-02T09:30:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00872,P056,V1445,visit_started,2026-09-02T09:30:00,medium,Auto-generated synthetic event: visit started,caregiver_app,good
+E00873,P056,V1445,visit_delayed,2026-09-02T09:30:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00874,P028,V1446,visit_delayed,2026-09-13T10:00:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00875,P028,V1446,visit_completed,2026-09-13T10:00:00,high,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00876,P028,V1446,follow_up_required,2026-09-13T10:00:00,high,Auto-generated synthetic event: follow up required,scheduling_system,poor
+E00877,P082,V1447,care_exception,2026-09-14T16:00:00,low,Auto-generated synthetic event: care exception,caregiver_app,good
+E00878,P082,V1447,visit_scheduled,2026-09-14T16:00:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00879,P060,V1448,follow_up_required,2026-09-22T15:45:00,medium,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00880,P060,V1448,visit_completed,2026-09-22T15:45:00,high,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00881,P051,V1449,visit_cancelled,2026-09-03T16:15:00,high,Auto-generated synthetic event: visit cancelled,caregiver_app,good
+E00882,P083,V1450,visit_started,2026-09-03T08:30:00,low,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00883,P003,V1451,visit_cancelled,2026-09-23T09:45:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00884,P003,V1451,care_exception,2026-09-23T09:45:00,high,Auto-generated synthetic event: care exception,scheduling_system,good
+E00885,P003,V1451,visit_cancelled,2026-09-23T09:45:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00886,P042,V1452,care_exception,2026-09-01T08:30:00,medium,Auto-generated synthetic event: care exception,caregiver_app,good
+E00887,P059,V1453,visit_delayed,2026-09-18T11:15:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00888,P059,V1453,care_exception,2026-09-18T11:15:00,info,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00889,P081,V1454,follow_up_required,2026-09-03T12:30:00,low,Auto-generated synthetic event: follow up required,coordinator,good
+E00890,P076,V1455,visit_started,2026-09-13T10:30:00,info,Auto-generated synthetic event: visit started,caregiver_app,good
+E00891,P076,V1455,visit_delayed,2026-09-13T10:30:00,medium,Auto-generated synthetic event: visit delayed,coordinator,good
+E00892,P076,V1455,care_exception,2026-09-13T10:30:00,info,Auto-generated synthetic event: care exception,scheduling_system,good
+E00893,P027,V1456,care_exception,2026-09-01T11:00:00,medium,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00894,P027,V1456,care_exception,2026-09-01T11:00:00,low,Auto-generated synthetic event: care exception,scheduling_system,good
+E00895,P027,V1456,visit_completed,2026-09-01T11:00:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00896,P109,V1457,visit_started,2026-09-02T11:45:00,medium,Auto-generated synthetic event: visit started,caregiver_app,good
+E00897,P109,V1457,visit_started,2026-09-02T11:45:00,info,Auto-generated synthetic event: visit started,coordinator,poor
+E00898,P009,V1458,visit_completed,2026-09-11T13:15:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00899,P009,V1458,visit_cancelled,2026-09-11T13:15:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00900,P040,V1459,visit_cancelled,2026-09-03T11:00:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00901,P051,V1460,visit_cancelled,2026-09-24T11:15:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00902,P051,V1460,care_exception,2026-09-24T11:15:00,info,Auto-generated synthetic event: care exception,coordinator,good
+E00903,P118,V1461,follow_up_required,2026-09-06T15:45:00,info,Auto-generated synthetic event: follow up required,coordinator,good
+E00904,P118,V1461,follow_up_required,2026-09-06T15:45:00,info,Auto-generated synthetic event: follow up required,coordinator,poor
+E00905,P118,V1461,visit_cancelled,2026-09-06T15:45:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00906,P118,V1462,visit_completed,2026-09-20T16:15:00,high,Auto-generated synthetic event: visit completed,coordinator,good
+E00907,P118,V1462,care_exception,2026-09-20T16:15:00,medium,Auto-generated synthetic event: care exception,scheduling_system,good
+E00908,P050,V1463,visit_cancelled,2026-09-01T08:30:00,medium,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00909,P050,V1463,visit_scheduled,2026-09-01T08:30:00,high,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00910,P050,V1463,visit_scheduled,2026-09-01T08:30:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00911,P105,V1464,visit_delayed,2026-09-06T11:45:00,high,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00912,P051,V1465,visit_cancelled,2026-09-21T08:15:00,medium,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00913,P119,V1466,care_exception,2026-09-19T09:15:00,low,Auto-generated synthetic event: care exception,coordinator,good
+E00914,P119,V1466,care_exception,2026-09-19T09:15:00,low,Auto-generated synthetic event: care exception,scheduling_system,good
+E00915,P119,V1466,visit_started,2026-09-19T09:15:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00916,P009,V1467,visit_cancelled,2026-09-28T09:00:00,info,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00917,P024,V1468,visit_delayed,2026-09-23T14:45:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00918,P075,V1469,visit_delayed,2026-09-02T10:15:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00919,P098,V1470,visit_started,2026-09-16T15:00:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00920,P046,V1471,visit_scheduled,2026-09-30T15:45:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,poor
+E00921,P046,V1471,follow_up_required,2026-09-30T15:45:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00922,P058,V1472,visit_completed,2026-09-26T09:00:00,high,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00923,P058,V1472,follow_up_required,2026-09-26T09:00:00,high,Auto-generated synthetic event: follow up required,coordinator,good
+E00924,P087,V1473,visit_started,2026-09-22T15:45:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00925,P094,V1474,visit_completed,2026-09-08T17:45:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00926,P071,V1475,visit_started,2026-09-10T17:15:00,low,Auto-generated synthetic event: visit started,scheduling_system,good
+E00927,P071,V1475,visit_completed,2026-09-10T17:15:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00928,P119,V1476,visit_scheduled,2026-09-06T15:00:00,info,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00929,P119,V1476,visit_completed,2026-09-06T15:00:00,info,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00930,P089,V1477,follow_up_required,2026-09-29T14:30:00,info,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00931,P089,V1477,visit_started,2026-09-29T14:30:00,info,Auto-generated synthetic event: visit started,coordinator,poor
+E00932,P012,V1478,visit_scheduled,2026-09-28T11:00:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00933,P012,V1478,visit_scheduled,2026-09-28T11:00:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00934,P055,V1479,visit_scheduled,2026-09-03T13:15:00,low,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00935,P055,V1479,visit_started,2026-09-03T13:15:00,high,Auto-generated synthetic event: visit started,scheduling_system,good
+E00936,P055,V1479,visit_cancelled,2026-09-03T13:15:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00937,P059,V1480,visit_cancelled,2026-09-25T13:15:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,poor
+E00938,P059,V1480,visit_started,2026-09-25T13:15:00,low,Auto-generated synthetic event: visit started,coordinator,good
+E00939,P028,V1481,follow_up_required,2026-09-20T12:15:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00940,P028,V1481,follow_up_required,2026-09-20T12:15:00,low,Auto-generated synthetic event: follow up required,scheduling_system,poor
+E00941,P028,V1481,visit_started,2026-09-20T12:15:00,medium,Auto-generated synthetic event: visit started,caregiver_app,good
+E00942,P110,V1482,visit_cancelled,2026-09-10T14:00:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00943,P110,V1482,visit_delayed,2026-09-10T14:00:00,info,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00944,P037,V1483,follow_up_required,2026-09-24T14:30:00,low,Auto-generated synthetic event: follow up required,caregiver_app,good
+E00945,P037,V1483,visit_cancelled,2026-09-24T14:30:00,high,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00946,P037,V1483,visit_started,2026-09-24T14:30:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00947,P062,V1484,visit_scheduled,2026-09-23T11:45:00,high,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00948,P055,V1485,visit_completed,2026-09-29T10:15:00,high,Auto-generated synthetic event: visit completed,coordinator,poor
+E00949,P055,V1485,visit_started,2026-09-29T10:15:00,info,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00950,P031,V1486,visit_delayed,2026-09-27T10:00:00,low,Auto-generated synthetic event: visit delayed,caregiver_app,good
+E00951,P031,V1486,visit_cancelled,2026-09-27T10:00:00,info,Auto-generated synthetic event: visit cancelled,caregiver_app,poor
+E00952,P057,V1487,follow_up_required,2026-09-16T12:15:00,low,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00953,P057,V1487,visit_cancelled,2026-09-16T12:15:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00954,P057,V1487,care_exception,2026-09-16T12:15:00,info,Auto-generated synthetic event: care exception,coordinator,good
+E00955,P102,V1488,visit_completed,2026-09-01T09:00:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00956,P102,V1488,visit_started,2026-09-01T09:00:00,low,Auto-generated synthetic event: visit started,caregiver_app,good
+E00957,P102,V1488,care_exception,2026-09-01T09:00:00,medium,Auto-generated synthetic event: care exception,caregiver_app,poor
+E00958,P105,V1489,visit_cancelled,2026-09-06T14:45:00,medium,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00959,P105,V1489,visit_completed,2026-09-06T14:45:00,medium,Auto-generated synthetic event: visit completed,coordinator,good
+E00960,P105,V1489,visit_cancelled,2026-09-06T14:45:00,info,Auto-generated synthetic event: visit cancelled,coordinator,poor
+E00961,P089,V1490,visit_scheduled,2026-09-26T16:45:00,low,Auto-generated synthetic event: visit scheduled,scheduling_system,good
+E00962,P089,V1490,visit_started,2026-09-26T16:45:00,info,Auto-generated synthetic event: visit started,scheduling_system,good
+E00963,P089,V1490,visit_completed,2026-09-26T16:45:00,medium,Auto-generated synthetic event: visit completed,scheduling_system,poor
+E00964,P039,V1491,follow_up_required,2026-09-01T16:45:00,medium,Auto-generated synthetic event: follow up required,scheduling_system,poor
+E00965,P039,V1491,visit_completed,2026-09-01T16:45:00,low,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00966,P117,V1492,visit_completed,2026-10-01T16:15:00,info,Auto-generated synthetic event: visit completed,coordinator,good
+E00967,P117,V1492,care_exception,2026-10-01T16:15:00,medium,Auto-generated synthetic event: care exception,caregiver_app,good
+E00968,P117,V1492,visit_delayed,2026-10-01T16:15:00,medium,Auto-generated synthetic event: visit delayed,caregiver_app,poor
+E00969,P036,V1493,visit_scheduled,2026-09-20T16:15:00,medium,Auto-generated synthetic event: visit scheduled,coordinator,good
+E00970,P036,V1493,visit_scheduled,2026-09-20T16:15:00,medium,Auto-generated synthetic event: visit scheduled,caregiver_app,good
+E00971,P036,V1493,visit_cancelled,2026-09-20T16:15:00,low,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00972,P069,V1494,follow_up_required,2026-09-24T17:45:00,info,Auto-generated synthetic event: follow up required,scheduling_system,good
+E00973,P069,V1494,visit_started,2026-09-24T17:45:00,medium,Auto-generated synthetic event: visit started,caregiver_app,poor
+E00974,P078,V1495,visit_cancelled,2026-09-03T12:15:00,info,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00975,P078,V1495,visit_completed,2026-09-03T12:15:00,low,Auto-generated synthetic event: visit completed,scheduling_system,good
+E00976,P036,V1496,visit_started,2026-09-03T12:00:00,medium,Auto-generated synthetic event: visit started,coordinator,good
+E00977,P071,V1497,follow_up_required,2026-09-04T14:15:00,info,Auto-generated synthetic event: follow up required,coordinator,good
+E00978,P071,V1497,visit_cancelled,2026-09-04T14:15:00,low,Auto-generated synthetic event: visit cancelled,coordinator,good
+E00979,P071,V1497,visit_delayed,2026-09-04T14:15:00,low,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00980,P066,V1498,care_exception,2026-09-20T09:00:00,low,Auto-generated synthetic event: care exception,coordinator,good
+E00981,P066,V1498,visit_cancelled,2026-09-20T09:00:00,high,Auto-generated synthetic event: visit cancelled,scheduling_system,good
+E00982,P066,V1498,visit_scheduled,2026-09-20T09:00:00,high,Auto-generated synthetic event: visit scheduled,caregiver_app,poor
+E00983,P046,V1499,visit_completed,2026-09-05T10:15:00,high,Auto-generated synthetic event: visit completed,caregiver_app,good
+E00984,P046,V1499,visit_started,2026-09-05T10:15:00,medium,Auto-generated synthetic event: visit started,scheduling_system,good
+E00985,P046,V1499,visit_delayed,2026-09-05T10:15:00,medium,Auto-generated synthetic event: visit delayed,scheduling_system,good
+E00986,P012,V1500,follow_up_required,2026-09-15T16:30:00,high,Auto-generated synthetic event: follow up required,scheduling_system,good

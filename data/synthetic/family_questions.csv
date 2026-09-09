@@ -1,0 +1,401 @@
+question_id,family_member_id,patient_id,question,question_category,timestamp
+Q0001,F189,P089,Why hasn't anyone arrived yet?,eta,2026-08-22T16:56:12.120077
+Q0002,F103,P048,Why was the visit changed?,exception,2026-08-23T22:56:12.120454
+Q0003,F087,P041,Has the visit been completed?,status,2026-08-31T21:56:12.120745
+Q0004,F054,P026,Why was the visit changed?,exception,2026-08-26T11:56:12.120971
+Q0005,F067,P032,Can the visit be rescheduled?,scheduling,2026-08-31T21:56:12.121279
+Q0006,F255,P116,Has the visit been completed?,status,2026-09-03T22:56:12.121499
+Q0007,F151,P070,Is everything okay with the patient?,medical,2026-09-07T17:56:12.121708
+Q0008,F063,P030,Has the visit been completed?,status,2026-08-19T16:56:12.121902
+Q0009,F253,P115,Who is the assigned caregiver?,caregiver_info,2026-09-06T06:56:12.122141
+Q0010,F047,P022,Can the visit be rescheduled?,scheduling,2026-09-06T14:56:12.122392
+Q0011,F061,P029,Why was the visit changed?,exception,2026-09-04T20:56:12.122603
+Q0012,F056,P027,Why hasn't anyone arrived yet?,eta,2026-09-06T05:56:12.122800
+Q0013,F133,P062,Who is the assigned caregiver?,caregiver_info,2026-08-24T00:56:12.122990
+Q0014,F224,P104,Is everything okay with the patient?,medical,2026-09-09T00:56:12.123207
+Q0015,F043,P020,Is the visit delayed?,status,2026-08-29T03:56:12.123393
+Q0016,F239,P110,Who is the assigned caregiver?,caregiver_info,2026-08-29T01:56:12.123661
+Q0017,F249,P114,Is the visit delayed?,status,2026-08-23T18:56:12.123884
+Q0018,F244,P112,Why hasn't anyone arrived yet?,eta,2026-09-04T07:56:12.124127
+Q0019,F054,P026,Why hasn't anyone arrived yet?,eta,2026-09-02T21:56:12.124333
+Q0020,F216,P101,Is the visit delayed?,status,2026-08-28T16:56:12.124538
+Q0021,F115,P053,Why hasn't anyone arrived yet?,eta,2026-09-05T23:56:12.124726
+Q0022,F102,P047,Is the visit delayed?,status,2026-08-21T11:56:12.124912
+Q0023,F077,P037,Is everything okay with the patient?,medical,2026-08-21T13:56:12.125159
+Q0024,F007,P003,Who is the assigned caregiver?,caregiver_info,2026-08-19T23:56:12.125360
+Q0025,F099,P046,When will the caregiver arrive?,eta,2026-09-01T02:56:12.125565
+Q0026,F037,P017,Who is the assigned caregiver?,caregiver_info,2026-09-06T20:56:12.125811
+Q0027,F140,P065,Why hasn't anyone arrived yet?,eta,2026-08-31T03:56:12.126041
+Q0028,F070,P033,Why was the visit changed?,exception,2026-08-21T13:56:12.126238
+Q0029,F152,P071,Why hasn't anyone arrived yet?,eta,2026-08-24T01:56:12.126473
+Q0030,F055,P026,Who is the assigned caregiver?,caregiver_info,2026-09-04T10:56:12.126659
+Q0031,F089,P041,Is the visit delayed?,status,2026-09-07T08:56:12.126843
+Q0032,F046,P022,Is everything okay with the patient?,medical,2026-09-04T02:56:12.127093
+Q0033,F208,P098,Why hasn't anyone arrived yet?,eta,2026-08-22T09:56:12.127353
+Q0034,F084,P039,Can the visit be rescheduled?,scheduling,2026-08-31T06:56:12.127611
+Q0035,F131,P061,When will the caregiver arrive?,eta,2026-08-26T15:56:12.127814
+Q0036,F173,P082,Is the visit delayed?,status,2026-08-21T19:56:12.128001
+Q0037,F094,P043,Who is the assigned caregiver?,caregiver_info,2026-08-22T06:56:12.128243
+Q0038,F073,P035,Who is the assigned caregiver?,caregiver_info,2026-08-20T22:56:12.128434
+Q0039,F073,P035,Who is the assigned caregiver?,caregiver_info,2026-08-26T14:56:12.128637
+Q0040,F246,P113,Is everything okay with the patient?,medical,2026-08-31T07:56:12.128821
+Q0041,F239,P110,Who is the assigned caregiver?,caregiver_info,2026-09-01T15:56:12.129012
+Q0042,F105,P049,Is the visit delayed?,status,2026-09-08T23:56:12.129238
+Q0043,F255,P116,Is the visit delayed?,status,2026-08-25T00:56:12.129421
+Q0044,F091,P042,Why hasn't anyone arrived yet?,eta,2026-09-04T01:56:12.129616
+Q0045,F202,P096,Why hasn't anyone arrived yet?,eta,2026-09-04T12:56:12.129801
+Q0046,F261,P119,Can the visit be rescheduled?,scheduling,2026-08-26T01:56:12.129990
+Q0047,F079,P038,Who is the assigned caregiver?,caregiver_info,2026-09-07T00:56:12.130212
+Q0048,F254,P115,Why hasn't anyone arrived yet?,eta,2026-08-28T06:56:12.130442
+Q0049,F259,P118,Can the visit be rescheduled?,scheduling,2026-08-27T07:56:12.130641
+Q0050,F063,P030,Can the visit be rescheduled?,scheduling,2026-09-08T08:56:12.130827
+Q0051,F061,P029,Is the visit delayed?,status,2026-08-27T15:56:12.131010
+Q0052,F201,P095,Is the visit delayed?,status,2026-08-27T23:56:12.131219
+Q0053,F053,P025,Is the visit delayed?,status,2026-09-06T17:56:12.131404
+Q0054,F055,P026,Has the visit been completed?,status,2026-09-01T13:56:12.131670
+Q0055,F090,P042,Can the visit be rescheduled?,scheduling,2026-08-22T20:56:12.131889
+Q0056,F133,P062,Can the visit be rescheduled?,scheduling,2026-08-24T22:56:12.132137
+Q0057,F083,P039,When will the caregiver arrive?,eta,2026-09-01T20:56:12.132349
+Q0058,F192,P090,Why hasn't anyone arrived yet?,eta,2026-08-22T01:56:12.132560
+Q0059,F188,P088,Why hasn't anyone arrived yet?,eta,2026-08-28T00:56:12.132744
+Q0060,F035,P016,When will the caregiver arrive?,eta,2026-08-20T04:56:12.132929
+Q0061,F175,P083,Can the visit be rescheduled?,scheduling,2026-08-22T21:56:12.133152
+Q0062,F169,P079,Can the visit be rescheduled?,scheduling,2026-08-25T23:56:12.133338
+Q0063,F084,P039,When will the caregiver arrive?,eta,2026-09-04T15:56:12.133531
+Q0064,F162,P076,Why was the visit changed?,exception,2026-09-08T17:56:12.133722
+Q0065,F165,P078,Is everything okay with the patient?,medical,2026-09-07T03:56:12.133939
+Q0066,F227,P105,Who is the assigned caregiver?,caregiver_info,2026-08-20T14:56:12.134165
+Q0067,F263,P120,Can the visit be rescheduled?,scheduling,2026-08-23T03:56:12.134406
+Q0068,F128,P059,When will the caregiver arrive?,eta,2026-08-24T16:56:12.134603
+Q0069,F201,P095,Why hasn't anyone arrived yet?,eta,2026-08-22T03:56:12.134788
+Q0070,F167,P079,Who is the assigned caregiver?,caregiver_info,2026-09-01T14:56:12.134969
+Q0071,F238,P109,Is everything okay with the patient?,medical,2026-09-01T17:56:12.135183
+Q0072,F006,P003,Has the visit been completed?,status,2026-09-03T08:56:12.135367
+Q0073,F193,P091,Why hasn't anyone arrived yet?,eta,2026-08-23T12:56:12.135569
+Q0074,F205,P097,When will the caregiver arrive?,eta,2026-09-02T07:56:12.135755
+Q0075,F031,P013,Why hasn't anyone arrived yet?,eta,2026-08-25T08:56:12.135936
+Q0076,F184,P086,Who is the assigned caregiver?,caregiver_info,2026-08-23T20:56:12.136157
+Q0077,F263,P120,Why was the visit changed?,exception,2026-09-04T18:56:12.136343
+Q0078,F201,P095,Is everything okay with the patient?,medical,2026-08-24T10:56:12.136534
+Q0079,F188,P088,Can the visit be rescheduled?,scheduling,2026-08-24T04:56:12.136717
+Q0080,F178,P084,Is everything okay with the patient?,medical,2026-08-23T14:56:12.136898
+Q0081,F035,P016,Why was the visit changed?,exception,2026-08-22T05:56:12.137131
+Q0082,F059,P028,Why hasn't anyone arrived yet?,eta,2026-08-21T23:56:12.137316
+Q0083,F250,P114,Is the visit delayed?,status,2026-09-02T03:56:12.137510
+Q0084,F170,P080,Is everything okay with the patient?,medical,2026-08-27T02:56:12.137696
+Q0085,F056,P027,Has the visit been completed?,status,2026-09-02T11:56:12.137877
+Q0086,F011,P006,Who is the assigned caregiver?,caregiver_info,2026-09-07T02:56:12.138086
+Q0087,F031,P013,Is the visit delayed?,status,2026-08-26T14:56:12.138315
+Q0088,F172,P081,Can the visit be rescheduled?,scheduling,2026-09-02T13:56:12.138516
+Q0089,F208,P098,Why hasn't anyone arrived yet?,eta,2026-08-26T14:56:12.138701
+Q0090,F096,P044,Why was the visit changed?,exception,2026-08-24T02:56:12.138885
+Q0091,F150,P070,Can the visit be rescheduled?,scheduling,2026-09-04T22:56:12.139091
+Q0092,F046,P022,Who is the assigned caregiver?,caregiver_info,2026-08-21T23:56:12.139278
+Q0093,F102,P047,Why hasn't anyone arrived yet?,eta,2026-09-01T18:56:12.139510
+Q0094,F117,P053,Is everything okay with the patient?,medical,2026-08-23T01:56:12.139705
+Q0095,F099,P046,Why hasn't anyone arrived yet?,eta,2026-08-21T03:56:12.139886
+Q0096,F225,P104,Is everything okay with the patient?,medical,2026-08-24T03:56:12.140102
+Q0097,F088,P041,Why was the visit changed?,exception,2026-08-19T18:56:12.140344
+Q0098,F254,P115,Why was the visit changed?,exception,2026-09-02T08:56:12.140549
+Q0099,F090,P042,When will the caregiver arrive?,eta,2026-09-06T20:56:12.140736
+Q0100,F188,P088,Has the visit been completed?,status,2026-08-27T20:56:12.140924
+Q0101,F180,P085,Who is the assigned caregiver?,caregiver_info,2026-08-20T20:56:12.141175
+Q0102,F184,P086,Who is the assigned caregiver?,caregiver_info,2026-08-24T02:56:12.141364
+Q0103,F052,P024,Why was the visit changed?,exception,2026-08-31T18:56:12.141608
+Q0104,F189,P089,Is the visit delayed?,status,2026-09-05T00:56:12.141803
+Q0105,F103,P048,Is the visit delayed?,status,2026-09-07T07:56:12.141989
+Q0106,F256,P117,Can the visit be rescheduled?,scheduling,2026-08-22T01:56:12.142218
+Q0107,F075,P036,Who is the assigned caregiver?,caregiver_info,2026-09-06T03:56:12.142468
+Q0108,F252,P115,Is everything okay with the patient?,medical,2026-08-28T21:56:12.142676
+Q0109,F107,P050,Is everything okay with the patient?,medical,2026-08-31T18:56:12.142862
+Q0110,F039,P019,Why was the visit changed?,exception,2026-08-20T14:56:12.143073
+Q0111,F243,P112,Can the visit be rescheduled?,scheduling,2026-09-07T00:56:12.143306
+Q0112,F236,P108,Who is the assigned caregiver?,caregiver_info,2026-08-27T03:56:12.143541
+Q0113,F214,P100,Is the visit delayed?,status,2026-09-02T08:56:12.143737
+Q0114,F131,P061,Has the visit been completed?,status,2026-08-30T19:56:12.143922
+Q0115,F248,P113,When will the caregiver arrive?,eta,2026-09-04T00:56:12.144157
+Q0116,F257,P117,Why was the visit changed?,exception,2026-08-26T00:56:12.144353
+Q0117,F106,P049,Who is the assigned caregiver?,caregiver_info,2026-09-08T16:56:12.144549
+Q0118,F014,P007,Why hasn't anyone arrived yet?,eta,2026-09-04T11:56:12.144734
+Q0119,F012,P006,Has the visit been completed?,status,2026-09-04T00:56:12.144915
+Q0120,F075,P036,Has the visit been completed?,status,2026-08-30T20:56:12.145133
+Q0121,F030,P013,Has the visit been completed?,status,2026-09-06T03:56:12.145329
+Q0122,F148,P069,When will the caregiver arrive?,eta,2026-09-02T22:56:12.145518
+Q0123,F066,P031,Has the visit been completed?,status,2026-08-19T16:56:12.145699
+Q0124,F126,P057,When will the caregiver arrive?,eta,2026-08-21T22:56:12.145880
+Q0125,F169,P079,Why hasn't anyone arrived yet?,eta,2026-08-22T08:56:12.146085
+Q0126,F159,P075,Why hasn't anyone arrived yet?,eta,2026-08-31T09:56:12.146319
+Q0127,F054,P026,Has the visit been completed?,status,2026-08-31T10:56:12.146521
+Q0128,F102,P047,Why was the visit changed?,exception,2026-08-22T03:56:12.146706
+Q0129,F255,P116,Can the visit be rescheduled?,scheduling,2026-08-26T20:56:12.146887
+Q0130,F071,P034,Can the visit be rescheduled?,scheduling,2026-08-24T07:56:12.147117
+Q0131,F009,P004,Who is the assigned caregiver?,caregiver_info,2026-08-25T04:56:12.147310
+Q0132,F060,P029,Is everything okay with the patient?,medical,2026-08-23T02:56:12.147503
+Q0133,F045,P021,Who is the assigned caregiver?,caregiver_info,2026-08-31T01:56:12.147686
+Q0134,F232,P107,Is everything okay with the patient?,medical,2026-09-01T11:56:12.147866
+Q0135,F238,P109,Has the visit been completed?,status,2026-09-02T10:56:12.148072
+Q0136,F243,P112,Is everything okay with the patient?,medical,2026-09-07T14:56:12.148259
+Q0137,F156,P073,Why was the visit changed?,exception,2026-09-02T09:56:12.148454
+Q0138,F007,P003,Has the visit been completed?,status,2026-08-23T06:56:12.148666
+Q0139,F075,P036,Why was the visit changed?,exception,2026-09-07T04:56:12.148851
+Q0140,F084,P039,Why hasn't anyone arrived yet?,eta,2026-08-28T19:56:12.149059
+Q0141,F153,P071,Is everything okay with the patient?,medical,2026-09-07T00:56:12.149252
+Q0142,F061,P029,Has the visit been completed?,status,2026-08-24T21:56:12.149434
+Q0143,F008,P003,Is everything okay with the patient?,medical,2026-08-24T22:56:12.149626
+Q0144,F014,P007,Has the visit been completed?,status,2026-08-30T07:56:12.149807
+Q0145,F192,P090,Who is the assigned caregiver?,caregiver_info,2026-08-27T23:56:12.149989
+Q0146,F041,P019,When will the caregiver arrive?,eta,2026-08-30T10:56:12.150200
+Q0147,F067,P032,Why hasn't anyone arrived yet?,eta,2026-08-29T15:56:12.150421
+Q0148,F020,P009,Can the visit be rescheduled?,scheduling,2026-09-07T20:56:12.150616
+Q0149,F250,P114,Why was the visit changed?,exception,2026-09-08T18:56:12.150800
+Q0150,F046,P022,Why hasn't anyone arrived yet?,eta,2026-08-28T07:56:12.150982
+Q0151,F238,P109,When will the caregiver arrive?,eta,2026-08-21T03:56:12.151198
+Q0152,F228,P106,Is everything okay with the patient?,medical,2026-08-30T01:56:12.151383
+Q0153,F011,P006,Why was the visit changed?,exception,2026-09-07T21:56:12.151575
+Q0154,F257,P117,Is everything okay with the patient?,medical,2026-09-07T20:56:12.151756
+Q0155,F241,P111,Who is the assigned caregiver?,caregiver_info,2026-08-28T02:56:12.151936
+Q0156,F092,P043,Who is the assigned caregiver?,caregiver_info,2026-08-20T00:56:12.152155
+Q0157,F195,P091,When will the caregiver arrive?,eta,2026-08-25T00:56:12.152339
+Q0158,F014,P007,Why hasn't anyone arrived yet?,eta,2026-08-31T01:56:12.152528
+Q0159,F210,P099,Why was the visit changed?,exception,2026-08-31T19:56:12.152712
+Q0160,F043,P020,Has the visit been completed?,status,2026-08-26T03:56:12.152893
+Q0161,F152,P071,Why hasn't anyone arrived yet?,eta,2026-09-02T15:56:12.153094
+Q0162,F156,P073,Who is the assigned caregiver?,caregiver_info,2026-09-02T04:56:12.153280
+Q0163,F262,P120,Has the visit been completed?,status,2026-08-28T02:56:12.153465
+Q0164,F071,P034,Can the visit be rescheduled?,scheduling,2026-09-06T04:56:12.153654
+Q0165,F208,P098,Is everything okay with the patient?,medical,2026-08-21T20:56:12.153844
+Q0166,F169,P079,When will the caregiver arrive?,eta,2026-08-19T12:56:12.154054
+Q0167,F172,P081,When will the caregiver arrive?,eta,2026-08-25T01:56:12.154278
+Q0168,F201,P095,Is everything okay with the patient?,medical,2026-08-27T17:56:12.154489
+Q0169,F080,P038,Is the visit delayed?,status,2026-08-23T17:56:12.154678
+Q0170,F222,P103,Is the visit delayed?,status,2026-08-27T03:56:12.154860
+Q0171,F080,P038,Is the visit delayed?,status,2026-08-28T22:56:12.155070
+Q0172,F238,P109,Can the visit be rescheduled?,scheduling,2026-08-24T16:56:12.155259
+Q0173,F113,P052,Why was the visit changed?,exception,2026-08-24T14:56:12.155439
+Q0174,F034,P015,Has the visit been completed?,status,2026-09-03T22:56:12.155631
+Q0175,F220,P102,Why was the visit changed?,exception,2026-08-22T10:56:12.155815
+Q0176,F121,P056,Why was the visit changed?,exception,2026-09-08T14:56:12.155995
+Q0177,F235,P108,Why hasn't anyone arrived yet?,eta,2026-08-24T16:56:12.156203
+Q0178,F065,P031,Is the visit delayed?,status,2026-09-02T04:56:12.156388
+Q0179,F189,P089,Is the visit delayed?,status,2026-09-07T05:56:12.156586
+Q0180,F039,P019,Can the visit be rescheduled?,scheduling,2026-08-28T00:56:12.156788
+Q0181,F122,P056,Can the visit be rescheduled?,scheduling,2026-08-23T01:56:12.157008
+Q0182,F048,P023,Can the visit be rescheduled?,scheduling,2026-09-01T02:56:12.157237
+Q0183,F234,P108,Why hasn't anyone arrived yet?,eta,2026-09-06T07:56:12.157418
+Q0184,F187,P088,Is everything okay with the patient?,medical,2026-09-05T08:56:12.157609
+Q0185,F042,P020,Is the visit delayed?,status,2026-09-02T14:56:12.157789
+Q0186,F161,P075,Is everything okay with the patient?,medical,2026-09-05T11:56:12.157976
+Q0187,F010,P005,Can the visit be rescheduled?,scheduling,2026-08-21T11:56:12.158190
+Q0188,F069,P033,Who is the assigned caregiver?,caregiver_info,2026-08-29T14:56:12.158415
+Q0189,F162,P076,Is the visit delayed?,status,2026-09-05T07:56:12.158610
+Q0190,F140,P065,Who is the assigned caregiver?,caregiver_info,2026-08-31T16:56:12.158793
+Q0191,F211,P099,Has the visit been completed?,status,2026-09-04T09:56:12.158973
+Q0192,F229,P106,Is everything okay with the patient?,medical,2026-08-26T10:56:12.159214
+Q0193,F004,P002,Is the visit delayed?,status,2026-09-02T00:56:12.159402
+Q0194,F256,P117,Why hasn't anyone arrived yet?,eta,2026-08-24T05:56:12.159592
+Q0195,F102,P047,Is the visit delayed?,status,2026-08-29T01:56:12.159774
+Q0196,F171,P080,Who is the assigned caregiver?,caregiver_info,2026-09-08T19:56:12.159954
+Q0197,F094,P043,When will the caregiver arrive?,eta,2026-08-28T08:56:12.160181
+Q0198,F053,P025,When will the caregiver arrive?,eta,2026-08-25T16:56:12.160392
+Q0199,F062,P029,Is everything okay with the patient?,medical,2026-09-07T05:56:12.160589
+Q0200,F154,P072,Why was the visit changed?,exception,2026-09-09T05:56:12.160772
+Q0201,F191,P089,When will the caregiver arrive?,eta,2026-09-09T03:56:12.160955
+Q0202,F047,P022,Is everything okay with the patient?,medical,2026-09-01T01:56:12.161178
+Q0203,F247,P113,Who is the assigned caregiver?,caregiver_info,2026-09-08T15:56:12.161365
+Q0204,F161,P075,Is everything okay with the patient?,medical,2026-08-21T22:56:12.161561
+Q0205,F239,P110,Is the visit delayed?,status,2026-08-19T20:56:12.161744
+Q0206,F017,P008,Why was the visit changed?,exception,2026-09-05T05:56:12.161924
+Q0207,F178,P084,Why hasn't anyone arrived yet?,eta,2026-09-05T08:56:12.162143
+Q0208,F210,P099,Has the visit been completed?,status,2026-08-19T10:56:12.162378
+Q0209,F262,P120,Is everything okay with the patient?,medical,2026-09-07T04:56:12.162599
+Q0210,F124,P057,Why was the visit changed?,exception,2026-08-27T10:56:12.162789
+Q0211,F216,P101,Is everything okay with the patient?,medical,2026-08-28T00:56:12.162973
+Q0212,F094,P043,Why was the visit changed?,exception,2026-08-21T05:56:12.163187
+Q0213,F095,P044,Why hasn't anyone arrived yet?,eta,2026-08-25T04:56:12.163375
+Q0214,F263,P120,Why was the visit changed?,exception,2026-08-29T10:56:12.163587
+Q0215,F061,P029,Why was the visit changed?,exception,2026-08-22T21:56:12.163799
+Q0216,F062,P029,Why hasn't anyone arrived yet?,eta,2026-09-08T14:56:12.163985
+Q0217,F172,P081,When will the caregiver arrive?,eta,2026-08-20T07:56:12.164210
+Q0218,F215,P100,Is the visit delayed?,status,2026-08-23T00:56:12.164433
+Q0219,F140,P065,Who is the assigned caregiver?,caregiver_info,2026-08-20T07:56:12.164632
+Q0220,F207,P098,Who is the assigned caregiver?,caregiver_info,2026-09-06T22:56:12.164813
+Q0221,F242,P111,Is everything okay with the patient?,medical,2026-08-25T16:56:12.164993
+Q0222,F253,P115,Why was the visit changed?,exception,2026-08-27T15:56:12.165200
+Q0223,F233,P107,Why was the visit changed?,exception,2026-08-21T01:56:12.165384
+Q0224,F167,P079,Is the visit delayed?,status,2026-08-29T15:56:12.165576
+Q0225,F235,P108,Has the visit been completed?,status,2026-08-27T09:56:12.165756
+Q0226,F080,P038,Why was the visit changed?,exception,2026-08-27T04:56:12.165938
+Q0227,F038,P018,Is everything okay with the patient?,medical,2026-08-20T05:56:12.166166
+Q0228,F111,P051,Why hasn't anyone arrived yet?,eta,2026-08-20T10:56:12.166399
+Q0229,F141,P065,Can the visit be rescheduled?,scheduling,2026-08-23T12:56:12.166593
+Q0230,F214,P100,Why hasn't anyone arrived yet?,eta,2026-08-20T02:56:12.166773
+Q0231,F102,P047,Is the visit delayed?,status,2026-08-25T23:56:12.166967
+Q0232,F020,P009,Is the visit delayed?,status,2026-09-02T00:56:12.167183
+Q0233,F090,P042,Has the visit been completed?,status,2026-09-01T10:56:12.167365
+Q0234,F213,P100,Why was the visit changed?,exception,2026-09-04T03:56:12.167558
+Q0235,F193,P091,Why hasn't anyone arrived yet?,eta,2026-09-05T05:56:12.167740
+Q0236,F169,P079,Can the visit be rescheduled?,scheduling,2026-09-08T08:56:12.167919
+Q0237,F234,P108,Is everything okay with the patient?,medical,2026-09-07T23:56:12.168129
+Q0238,F028,P012,Why hasn't anyone arrived yet?,eta,2026-08-22T22:56:12.168311
+Q0239,F155,P073,Is the visit delayed?,status,2026-08-22T03:56:12.168538
+Q0240,F239,P110,Is the visit delayed?,status,2026-08-26T02:56:12.168726
+Q0241,F238,P109,Is everything okay with the patient?,medical,2026-08-20T19:56:12.168910
+Q0242,F178,P084,Can the visit be rescheduled?,scheduling,2026-08-24T02:56:12.169135
+Q0243,F236,P108,Has the visit been completed?,status,2026-09-03T05:56:12.169321
+Q0244,F115,P053,Is everything okay with the patient?,medical,2026-09-06T08:56:12.169510
+Q0245,F261,P119,Why hasn't anyone arrived yet?,eta,2026-08-23T23:56:12.169692
+Q0246,F233,P107,Has the visit been completed?,status,2026-09-03T00:56:12.169871
+Q0247,F131,P061,Can the visit be rescheduled?,scheduling,2026-08-31T15:56:12.170082
+Q0248,F124,P057,Can the visit be rescheduled?,scheduling,2026-09-01T04:56:12.170307
+Q0249,F048,P023,Is the visit delayed?,status,2026-08-29T18:56:12.170507
+Q0250,F031,P013,When will the caregiver arrive?,eta,2026-08-29T18:56:12.170697
+Q0251,F261,P119,Is the visit delayed?,status,2026-09-02T09:56:12.170878
+Q0252,F125,P057,Why hasn't anyone arrived yet?,eta,2026-08-27T05:56:12.171094
+Q0253,F223,P103,Can the visit be rescheduled?,scheduling,2026-09-02T17:56:12.171286
+Q0254,F080,P038,Why hasn't anyone arrived yet?,eta,2026-08-23T11:56:12.171474
+Q0255,F109,P050,Who is the assigned caregiver?,caregiver_info,2026-08-23T19:56:12.171659
+Q0256,F244,P112,When will the caregiver arrive?,eta,2026-08-28T23:56:12.171838
+Q0257,F155,P073,When will the caregiver arrive?,eta,2026-09-05T05:56:12.172038
+Q0258,F143,P066,Is the visit delayed?,status,2026-09-02T16:56:12.172230
+Q0259,F044,P021,Why was the visit changed?,exception,2026-08-26T13:56:12.172408
+Q0260,F168,P079,Is everything okay with the patient?,medical,2026-08-24T11:56:12.172601
+Q0261,F153,P071,When will the caregiver arrive?,eta,2026-08-28T20:56:12.172788
+Q0262,F032,P014,When will the caregiver arrive?,eta,2026-09-08T05:56:12.172970
+Q0263,F237,P109,Who is the assigned caregiver?,caregiver_info,2026-09-01T00:56:12.173184
+Q0264,F185,P087,Has the visit been completed?,status,2026-09-01T17:56:12.173368
+Q0265,F014,P007,When will the caregiver arrive?,eta,2026-08-22T16:56:12.173561
+Q0266,F191,P089,Can the visit be rescheduled?,scheduling,2026-08-24T11:56:12.173745
+Q0267,F159,P075,Why was the visit changed?,exception,2026-08-29T09:56:12.173925
+Q0268,F087,P041,Is everything okay with the patient?,medical,2026-08-25T17:56:12.174152
+Q0269,F006,P003,When will the caregiver arrive?,eta,2026-08-20T19:56:12.174388
+Q0270,F111,P051,Has the visit been completed?,status,2026-09-07T03:56:12.174584
+Q0271,F106,P049,Why hasn't anyone arrived yet?,eta,2026-08-19T23:56:12.174787
+Q0272,F134,P062,Why was the visit changed?,exception,2026-08-21T05:56:12.174976
+Q0273,F035,P016,Has the visit been completed?,status,2026-08-25T01:56:12.175188
+Q0274,F056,P027,Is everything okay with the patient?,medical,2026-09-07T16:56:12.175372
+Q0275,F259,P118,Has the visit been completed?,status,2026-08-29T16:56:12.175566
+Q0276,F033,P014,Has the visit been completed?,status,2026-08-28T01:56:12.175749
+Q0277,F047,P022,When will the caregiver arrive?,eta,2026-09-08T06:56:12.175933
+Q0278,F091,P042,Can the visit be rescheduled?,scheduling,2026-09-04T20:56:12.176155
+Q0279,F212,P099,Is the visit delayed?,status,2026-08-20T12:56:12.176339
+Q0280,F059,P028,Who is the assigned caregiver?,caregiver_info,2026-09-09T03:56:12.176528
+Q0281,F045,P021,Has the visit been completed?,status,2026-08-26T04:56:12.176712
+Q0282,F078,P037,Is everything okay with the patient?,medical,2026-09-05T11:56:12.176892
+Q0283,F127,P058,Can the visit be rescheduled?,scheduling,2026-08-22T14:56:12.177112
+Q0284,F116,P053,Has the visit been completed?,status,2026-09-01T07:56:12.177307
+Q0285,F014,P007,Can the visit be rescheduled?,scheduling,2026-09-08T07:56:12.177545
+Q0286,F031,P013,Why was the visit changed?,exception,2026-09-06T05:56:12.177740
+Q0287,F175,P083,Has the visit been completed?,status,2026-08-26T23:56:12.177927
+Q0288,F112,P052,Who is the assigned caregiver?,caregiver_info,2026-08-21T10:56:12.178203
+Q0289,F027,P012,Can the visit be rescheduled?,scheduling,2026-08-25T17:56:12.178452
+Q0290,F238,P109,Who is the assigned caregiver?,caregiver_info,2026-09-04T21:56:12.178655
+Q0291,F116,P053,Who is the assigned caregiver?,caregiver_info,2026-08-31T12:56:12.178843
+Q0292,F065,P031,When will the caregiver arrive?,eta,2026-08-31T09:56:12.179051
+Q0293,F158,P074,Can the visit be rescheduled?,scheduling,2026-09-01T04:56:12.179249
+Q0294,F223,P103,Who is the assigned caregiver?,caregiver_info,2026-08-22T06:56:12.179488
+Q0295,F095,P044,Has the visit been completed?,status,2026-08-22T19:56:12.179728
+Q0296,F225,P104,Why hasn't anyone arrived yet?,eta,2026-09-03T20:56:12.179974
+Q0297,F189,P089,When will the caregiver arrive?,eta,2026-08-26T21:56:12.180200
+Q0298,F031,P013,Can the visit be rescheduled?,scheduling,2026-09-08T08:56:12.180384
+Q0299,F053,P025,Why hasn't anyone arrived yet?,eta,2026-09-06T12:56:12.180580
+Q0300,F261,P119,Has the visit been completed?,status,2026-09-07T17:56:12.180762
+Q0301,F113,P052,Is the visit delayed?,status,2026-09-06T18:56:12.180971
+Q0302,F199,P093,Why was the visit changed?,exception,2026-08-21T00:56:12.181193
+Q0303,F122,P056,Why hasn't anyone arrived yet?,eta,2026-09-07T19:56:12.181516
+Q0304,F199,P093,Why was the visit changed?,exception,2026-08-28T19:56:12.181790
+Q0305,F053,P025,Is everything okay with the patient?,medical,2026-09-05T16:56:12.182001
+Q0306,F077,P037,Who is the assigned caregiver?,caregiver_info,2026-08-19T20:56:12.182314
+Q0307,F056,P027,Can the visit be rescheduled?,scheduling,2026-09-03T04:56:12.182533
+Q0308,F088,P041,Who is the assigned caregiver?,caregiver_info,2026-09-03T04:56:12.182724
+Q0309,F179,P084,Who is the assigned caregiver?,caregiver_info,2026-09-06T22:56:12.182908
+Q0310,F031,P013,Is the visit delayed?,status,2026-08-31T19:56:12.183130
+Q0311,F119,P054,Has the visit been completed?,status,2026-08-19T23:56:12.183318
+Q0312,F232,P107,Is the visit delayed?,status,2026-08-28T09:56:12.183608
+Q0313,F011,P006,Why hasn't anyone arrived yet?,eta,2026-09-04T23:56:12.183836
+Q0314,F078,P037,Why was the visit changed?,exception,2026-08-29T04:56:12.184059
+Q0315,F090,P042,When will the caregiver arrive?,eta,2026-08-30T05:56:12.184268
+Q0316,F211,P099,Why hasn't anyone arrived yet?,eta,2026-09-06T22:56:12.184464
+Q0317,F128,P059,Is the visit delayed?,status,2026-09-04T08:56:12.184653
+Q0318,F145,P068,When will the caregiver arrive?,eta,2026-08-22T11:56:12.184834
+Q0319,F150,P070,Can the visit be rescheduled?,scheduling,2026-09-05T07:56:12.185016
+Q0320,F051,P024,Is the visit delayed?,status,2026-08-23T23:56:12.185238
+Q0321,F259,P118,Is the visit delayed?,status,2026-09-04T02:56:12.185486
+Q0322,F096,P044,Can the visit be rescheduled?,scheduling,2026-08-27T02:56:12.185705
+Q0323,F158,P074,Is everything okay with the patient?,medical,2026-08-30T21:56:12.185891
+Q0324,F161,P075,Why was the visit changed?,exception,2026-08-30T19:56:12.186108
+Q0325,F241,P111,When will the caregiver arrive?,eta,2026-08-26T02:56:12.186333
+Q0326,F151,P070,Has the visit been completed?,status,2026-08-23T20:56:12.186532
+Q0327,F039,P019,Has the visit been completed?,status,2026-08-24T18:56:12.186716
+Q0328,F202,P096,Is everything okay with the patient?,medical,2026-09-08T07:56:12.186898
+Q0329,F079,P038,When will the caregiver arrive?,eta,2026-08-20T00:56:12.187134
+Q0330,F055,P026,Why was the visit changed?,exception,2026-09-01T23:56:12.187328
+Q0331,F195,P091,Who is the assigned caregiver?,caregiver_info,2026-08-20T14:56:12.187566
+Q0332,F017,P008,Why was the visit changed?,exception,2026-09-01T18:56:12.187768
+Q0333,F249,P114,Why hasn't anyone arrived yet?,eta,2026-09-04T23:56:12.187956
+Q0334,F212,P099,When will the caregiver arrive?,eta,2026-08-31T21:56:12.188180
+Q0335,F183,P086,Can the visit be rescheduled?,scheduling,2026-09-05T23:56:12.188404
+Q0336,F062,P029,Who is the assigned caregiver?,caregiver_info,2026-08-29T11:56:12.188602
+Q0337,F014,P007,Is the visit delayed?,status,2026-09-04T10:56:12.188785
+Q0338,F221,P102,Why was the visit changed?,exception,2026-08-26T20:56:12.188973
+Q0339,F001,P001,Has the visit been completed?,status,2026-09-02T02:56:12.189196
+Q0340,F091,P042,Why hasn't anyone arrived yet?,eta,2026-09-08T17:56:12.189384
+Q0341,F131,P061,Why hasn't anyone arrived yet?,eta,2026-09-07T18:56:12.189579
+Q0342,F212,P099,Has the visit been completed?,status,2026-08-27T09:56:12.189763
+Q0343,F111,P051,Who is the assigned caregiver?,caregiver_info,2026-08-28T08:56:12.189945
+Q0344,F063,P030,Why was the visit changed?,exception,2026-09-06T04:56:12.190170
+Q0345,F222,P103,Is everything okay with the patient?,medical,2026-09-08T00:56:12.190404
+Q0346,F101,P046,Is the visit delayed?,status,2026-08-25T15:56:12.190619
+Q0347,F117,P053,Is the visit delayed?,status,2026-08-31T12:56:12.190807
+Q0348,F055,P026,When will the caregiver arrive?,eta,2026-08-27T01:56:12.190988
+Q0349,F025,P011,Why was the visit changed?,exception,2026-08-24T19:56:12.191205
+Q0350,F208,P098,Is everything okay with the patient?,medical,2026-09-01T08:56:12.191394
+Q0351,F156,P073,When will the caregiver arrive?,eta,2026-09-06T04:56:12.191649
+Q0352,F252,P115,Is the visit delayed?,status,2026-08-25T15:56:12.191862
+Q0353,F259,P118,Has the visit been completed?,status,2026-09-09T02:56:12.192105
+Q0354,F081,P038,Can the visit be rescheduled?,scheduling,2026-09-09T04:56:12.192366
+Q0355,F107,P050,When will the caregiver arrive?,eta,2026-08-22T21:56:12.192569
+Q0356,F216,P101,Can the visit be rescheduled?,scheduling,2026-08-23T20:56:12.192751
+Q0357,F043,P020,Is the visit delayed?,status,2026-08-21T23:56:12.192929
+Q0358,F244,P112,Has the visit been completed?,status,2026-08-23T23:56:12.193162
+Q0359,F231,P107,When will the caregiver arrive?,eta,2026-08-28T05:56:12.193345
+Q0360,F196,P092,Is the visit delayed?,status,2026-09-08T19:56:12.193564
+Q0361,F241,P111,Why hasn't anyone arrived yet?,eta,2026-08-20T06:56:12.193790
+Q0362,F169,P079,Can the visit be rescheduled?,scheduling,2026-09-03T05:56:12.193976
+Q0363,F041,P019,Can the visit be rescheduled?,scheduling,2026-08-30T15:56:12.194202
+Q0364,F162,P076,Has the visit been completed?,status,2026-08-25T16:56:12.194435
+Q0365,F161,P075,Why hasn't anyone arrived yet?,eta,2026-08-27T04:56:12.194636
+Q0366,F168,P079,Who is the assigned caregiver?,caregiver_info,2026-09-01T21:56:12.194818
+Q0367,F107,P050,Why hasn't anyone arrived yet?,eta,2026-08-30T00:56:12.195002
+Q0368,F019,P008,Why was the visit changed?,exception,2026-08-30T13:56:12.195228
+Q0369,F094,P043,Is everything okay with the patient?,medical,2026-09-04T11:56:12.195420
+Q0370,F048,P023,Why was the visit changed?,exception,2026-09-03T03:56:12.195692
+Q0371,F172,P081,Why was the visit changed?,exception,2026-08-19T16:56:12.195900
+Q0372,F197,P092,Can the visit be rescheduled?,scheduling,2026-09-03T18:56:12.196143
+Q0373,F062,P029,Why was the visit changed?,exception,2026-09-01T09:56:12.196346
+Q0374,F081,P038,When will the caregiver arrive?,eta,2026-08-31T00:56:12.196603
+Q0375,F223,P103,Who is the assigned caregiver?,caregiver_info,2026-09-06T04:56:12.196792
+Q0376,F111,P051,When will the caregiver arrive?,eta,2026-08-30T10:56:12.196992
+Q0377,F073,P035,Can the visit be rescheduled?,scheduling,2026-08-25T02:56:12.197232
+Q0378,F117,P053,Has the visit been completed?,status,2026-08-31T16:56:12.197422
+Q0379,F134,P062,Why was the visit changed?,exception,2026-08-22T07:56:12.197620
+Q0380,F213,P100,Is everything okay with the patient?,medical,2026-09-04T19:56:12.197808
+Q0381,F082,P039,Can the visit be rescheduled?,scheduling,2026-08-31T06:56:12.197989
+Q0382,F009,P004,Can the visit be rescheduled?,scheduling,2026-08-30T10:56:12.198200
+Q0383,F054,P026,Why hasn't anyone arrived yet?,eta,2026-08-30T18:56:12.198478
+Q0384,F022,P010,Can the visit be rescheduled?,scheduling,2026-08-30T08:56:12.198681
+Q0385,F109,P050,Is everything okay with the patient?,medical,2026-09-02T01:56:12.198865
+Q0386,F038,P018,Is everything okay with the patient?,medical,2026-08-26T01:56:12.199072
+Q0387,F225,P104,Can the visit be rescheduled?,scheduling,2026-09-06T09:56:12.199266
+Q0388,F047,P022,Has the visit been completed?,status,2026-09-04T00:56:12.199454
+Q0389,F020,P009,Has the visit been completed?,status,2026-08-25T01:56:12.199652
+Q0390,F193,P091,Has the visit been completed?,status,2026-08-28T02:56:12.199839
+Q0391,F037,P017,Has the visit been completed?,status,2026-08-20T00:56:12.200043
+Q0392,F010,P005,Is everything okay with the patient?,medical,2026-08-21T01:56:12.200235
+Q0393,F159,P075,Why hasn't anyone arrived yet?,eta,2026-08-28T13:56:12.200477
+Q0394,F100,P046,Can the visit be rescheduled?,scheduling,2026-09-01T06:56:12.200666
+Q0395,F176,P083,Who is the assigned caregiver?,caregiver_info,2026-09-04T16:56:12.200881
+Q0396,F014,P007,Can the visit be rescheduled?,scheduling,2026-09-06T05:56:12.201096
+Q0397,F155,P073,Why hasn't anyone arrived yet?,eta,2026-09-06T22:56:12.201292
+Q0398,F011,P006,Why hasn't anyone arrived yet?,eta,2026-09-02T20:56:12.201488
+Q0399,F102,P047,Can the visit be rescheduled?,scheduling,2026-09-08T03:56:12.201686
+Q0400,F179,P084,Has the visit been completed?,status,2026-09-04T14:56:12.201869

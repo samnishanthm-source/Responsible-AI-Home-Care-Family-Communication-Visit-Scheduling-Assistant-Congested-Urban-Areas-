@@ -1,0 +1,121 @@
+patient_id,age_group,care_level,location_zone,preferred_language,communication_preference
+P001,60-70,low,East Zone,Tamil,App Notification
+P002,71-80,high,North Zone,Malayalam,SMS
+P003,90+,low,North Zone,English,App Notification
+P004,71-80,high,Central Zone,English,App Notification
+P005,90+,low,West Zone,Malayalam,Phone Call
+P006,60-70,low,West Zone,Hindi,Phone Call
+P007,71-80,low,East Zone,English,SMS
+P008,90+,low,East Zone,Hindi,Phone Call
+P009,60-70,high,West Zone,Malayalam,SMS
+P010,90+,low,Central Zone,Hindi,Phone Call
+P011,71-80,high,North Zone,English,App Notification
+P012,81-90,low,South Zone,English,Email
+P013,81-90,medium,East Zone,Tamil,Phone Call
+P014,81-90,low,East Zone,English,App Notification
+P015,71-80,low,West Zone,Telugu,Phone Call
+P016,71-80,high,East Zone,English,App Notification
+P017,60-70,medium,West Zone,Hindi,SMS
+P018,71-80,high,East Zone,Tamil,Email
+P019,90+,high,West Zone,Tamil,Phone Call
+P020,71-80,low,Central Zone,Malayalam,Phone Call
+P021,90+,high,West Zone,Hindi,App Notification
+P022,71-80,high,West Zone,English,SMS
+P023,60-70,low,South Zone,Telugu,SMS
+P024,90+,medium,Central Zone,Telugu,Phone Call
+P025,60-70,high,North Zone,Malayalam,Phone Call
+P026,81-90,low,East Zone,Telugu,App Notification
+P027,90+,low,East Zone,Malayalam,App Notification
+P028,60-70,high,East Zone,Malayalam,App Notification
+P029,71-80,medium,South Zone,Malayalam,SMS
+P030,81-90,medium,North Zone,English,Phone Call
+P031,81-90,low,North Zone,Tamil,SMS
+P032,60-70,high,West Zone,English,App Notification
+P033,71-80,high,West Zone,Malayalam,App Notification
+P034,81-90,high,Central Zone,Telugu,App Notification
+P035,71-80,high,East Zone,Telugu,Phone Call
+P036,90+,high,West Zone,English,App Notification
+P037,71-80,low,East Zone,English,App Notification
+P038,71-80,low,North Zone,English,App Notification
+P039,60-70,low,East Zone,English,App Notification
+P040,81-90,high,West Zone,Tamil,App Notification
+P041,90+,low,West Zone,Telugu,App Notification
+P042,60-70,low,West Zone,Hindi,Email
+P043,90+,medium,North Zone,English,SMS
+P044,90+,high,East Zone,English,App Notification
+P045,71-80,low,Central Zone,Telugu,App Notification
+P046,90+,low,East Zone,Telugu,App Notification
+P047,60-70,medium,Central Zone,English,SMS
+P048,60-70,low,South Zone,Tamil,Email
+P049,90+,medium,South Zone,Telugu,SMS
+P050,71-80,medium,North Zone,Telugu,Phone Call
+P051,90+,medium,West Zone,Malayalam,Email
+P052,71-80,low,East Zone,Tamil,SMS
+P053,60-70,high,East Zone,English,SMS
+P054,90+,high,Central Zone,Tamil,SMS
+P055,60-70,low,North Zone,Malayalam,SMS
+P056,71-80,medium,North Zone,Malayalam,App Notification
+P057,60-70,high,North Zone,Telugu,Phone Call
+P058,81-90,low,East Zone,Tamil,Phone Call
+P059,90+,low,East Zone,Telugu,Phone Call
+P060,60-70,low,West Zone,Malayalam,SMS
+P061,60-70,high,South Zone,Malayalam,Phone Call
+P062,71-80,medium,North Zone,Tamil,Phone Call
+P063,81-90,low,West Zone,Malayalam,Phone Call
+P064,60-70,high,Central Zone,Hindi,SMS
+P065,71-80,medium,North Zone,English,App Notification
+P066,81-90,medium,Central Zone,Tamil,Phone Call
+P067,71-80,high,East Zone,Malayalam,Email
+P068,81-90,low,North Zone,Telugu,Phone Call
+P069,60-70,low,East Zone,Tamil,Phone Call
+P070,71-80,high,West Zone,Malayalam,Email
+P071,60-70,low,North Zone,Tamil,SMS
+P072,81-90,high,Central Zone,Tamil,Email
+P073,71-80,low,East Zone,Hindi,SMS
+P074,81-90,low,South Zone,English,Phone Call
+P075,90+,high,South Zone,Tamil,App Notification
+P076,71-80,medium,North Zone,Tamil,Phone Call
+P077,90+,high,South Zone,Hindi,App Notification
+P078,60-70,medium,North Zone,Telugu,App Notification
+P079,71-80,medium,East Zone,Hindi,App Notification
+P080,71-80,low,South Zone,Telugu,Phone Call
+P081,81-90,low,East Zone,Hindi,Email
+P082,81-90,low,North Zone,Hindi,App Notification
+P083,81-90,low,North Zone,Malayalam,Email
+P084,81-90,high,East Zone,Telugu,SMS
+P085,90+,high,South Zone,Hindi,SMS
+P086,90+,low,Central Zone,Malayalam,App Notification
+P087,81-90,medium,North Zone,Hindi,Phone Call
+P088,60-70,high,East Zone,Malayalam,Phone Call
+P089,90+,medium,West Zone,Hindi,App Notification
+P090,71-80,medium,West Zone,Tamil,Phone Call
+P091,90+,high,North Zone,Hindi,Phone Call
+P092,71-80,medium,Central Zone,Malayalam,Phone Call
+P093,90+,medium,West Zone,Tamil,Email
+P094,71-80,high,North Zone,Hindi,Phone Call
+P095,60-70,low,East Zone,Tamil,App Notification
+P096,71-80,low,North Zone,Tamil,Email
+P097,60-70,medium,West Zone,Malayalam,App Notification
+P098,90+,medium,West Zone,Tamil,App Notification
+P099,60-70,low,West Zone,Tamil,App Notification
+P100,90+,low,Central Zone,Tamil,SMS
+P101,90+,low,West Zone,Malayalam,Phone Call
+P102,90+,high,Central Zone,Telugu,Email
+P103,71-80,high,West Zone,Telugu,Phone Call
+P104,71-80,high,East Zone,Malayalam,Email
+P105,71-80,medium,West Zone,English,Phone Call
+P106,71-80,medium,East Zone,Hindi,SMS
+P107,71-80,low,South Zone,Telugu,App Notification
+P108,71-80,low,West Zone,Telugu,Phone Call
+P109,90+,medium,North Zone,Tamil,Email
+P110,90+,high,North Zone,Malayalam,Email
+P111,90+,low,East Zone,Hindi,Email
+P112,90+,high,Central Zone,Malayalam,App Notification
+P113,90+,low,East Zone,Telugu,Email
+P114,60-70,medium,East Zone,Telugu,App Notification
+P115,90+,low,Central Zone,Malayalam,SMS
+P116,90+,high,Central Zone,English,SMS
+P117,90+,low,West Zone,Tamil,SMS
+P118,81-90,medium,East Zone,Tamil,Email
+P119,81-90,medium,West Zone,Hindi,Email
+P120,81-90,low,West Zone,English,SMS
