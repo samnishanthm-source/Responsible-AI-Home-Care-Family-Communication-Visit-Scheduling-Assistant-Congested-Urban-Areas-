@@ -1,40 +1,28 @@
 # Field-Workflow Map
 
 ```
-Care Event
-    ↓
-Scheduling System
-    ↓
-Data Quality Check  ───────────────► (poor quality / missing fields flagged)
-    ↓
-Consent + Role Check ──────────────► (Unauthorised → hard stop, restriction message)
-    ↓
-AI Summary Engine (deterministic rules)
-    ↓
-Uncertainty Check ─────────────────► (Low confidence → hedge or withhold precise ETA)
-    ↓
-Harm/Risk Check ───────────────────► (conflicting data / high risk → force escalation)
-    ↓
- ┌───────────────┐
- │ Safe to Send? │
- └───────┬───────┘
-       YES│       │NO
-          ↓       ↓
-      Family    Coordinator
-      Message     Review Queue
-          ↓       ↓
-       Feedback  Human Decision
-      (question    (Approve / Reject /
-       answering)   Edit / Escalate)
+Care Event → Scheduling System → Data Quality Check → Consent + Role Check
+→ AI Summary Engine → Uncertainty Check → Harm/Risk Check → Safe to Send?
+      YES → Family Message → Feedback (question answering)
+      NO  → Coordinator Review → Human Decision (Approve/Reject/Edit/Escalate)
 ```
 
+## Phase 2 addition — Live Disruption Cascade
+```
+Live Traffic Disruption Event (e.g. sudden jam)
+      ↓
+app/rules/live_update.apply_disruption()   (revises traffic_level + travel_confidence)
+      ↓
+Pipeline re-run for every active family recipient of that visit
+      ↓
+Compare before/after message per recipient
+      ↓
+Only recipients whose message actually changed are re-notified (avoids alert fatigue)
+```
+See `reports/live_update_cascade.md` for measured results on 25 simulated disruption events.
+
 ## Human escalation points
-
-1. **Conflicting data** (e.g. `visit_status = completed` but `actual_arrival` missing).
-2. **Missing ETA** for a visit that is not yet completed.
-3. **Dominant potential-harm risk level is High or Critical.**
-4. **Poor data quality combined with low/unknown confidence.**
-
-In all four cases, the family receives an honest "please contact the coordinator" message rather than a
-guess, and the coordinator sees the full explanation, risk breakdown, and suggested action in the
-Coordinator Review screen.
+1. Conflicting data (status says completed, no actual arrival recorded).
+2. Missing ETA for a visit that is not yet completed.
+3. Dominant potential-harm risk level is High or Critical.
+4. Poor data quality combined with low/unknown confidence.

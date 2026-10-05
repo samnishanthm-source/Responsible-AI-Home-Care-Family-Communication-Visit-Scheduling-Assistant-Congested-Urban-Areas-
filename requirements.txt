@@ -4,3 +4,6 @@ streamlit
 plotly
 pytest
 tabulate
+fastapi
+uvicorn
+pydantic
